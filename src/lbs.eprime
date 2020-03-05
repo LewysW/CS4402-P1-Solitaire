@@ -16,9 +16,9 @@ forAll card : int(1..n) .
 
 
 $Number of empty piles must increase as moves are made
-$forAll pile : int(2..(n + 1)) .
- $ forAll card : int((n - pile + 2)..n) .
-  $  piles[pile, card] = -1
+forAll pile : int(2..n) .
+  forAll card : int((n - pile + 2)..n) .
+    piles[pile, card] = -1,
 
 
 forAll pile : int(1..n) .
@@ -28,8 +28,4 @@ forAll pile : int(1..n) .
 $allDiff([piles[pile,card] | pile : int(1..n), card : int(1..(n - pile + 1))])
 
 
-$max distance 
-      
-
-  
-
+$max distance
