@@ -1,9 +1,18 @@
 language ESSENCE' 1.0
 
+letting HEARTS be domain int(0..12)
+letting DIAMONDS be domain int(13..25)
+letting CLUBS be domain int(26..38)
+letting SPADES be domain int(39..51)
+
 given cards : matrix indexed by [ int(1..n) ] of int(0..51) where alldifferent(cards)
+
+letting MOVES = n - 1
 
 find card : int (0..51)
 
 such that
 
-card = 0
+card = MOVES
+  
+
