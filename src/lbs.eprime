@@ -11,15 +11,21 @@ find piles : matrix indexed by [ROWS, COLUMNS] of int(-2..51)
 such that
 
 $Cards in first pile must be unique cards from cards list
-forAll col : int(1..n) .
-  piles[1, col] = cards[col],
+forAll card : int(1..n) .
+  piles[1, card] = cards[card],
 
 
-$Number of empty elements must increase as moves are made
-forAll row : int(1..n) .
-  forAll col : int(n - row + 2..n) .
-    piles[row, col] = -1
+$Number of empty piles must increase as moves are made
+$forAll pile : int(2..(n + 1)) .
+ $ forAll card : int((n - pile + 2)..n) .
+  $  piles[pile, card] = -1
 
+
+forAll pile : int(1..n) .
+  forAll card : int(1..(n - pile + 1)) .
+    piles[pile, card] in toSet(cards)
+
+$allDiff([piles[pile,card] | pile : int(1..n), card : int(1..(n - pile + 1))])
 
 
 $max distance 
