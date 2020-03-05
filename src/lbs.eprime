@@ -1,17 +1,29 @@
 language ESSENCE' 1.0
 
-letting HEARTS be domain int(0..12)
-letting DIAMONDS be domain int(13..25)
-letting CLUBS be domain int(26..38)
-letting SPADES be domain int(39..51)
 given cards : matrix indexed by [ int(1..n) ] of int(0..51) where alldifferent(cards)
 
+letting ROWS = int(1..n)
+letting COLUMNS = int(1..n)
+letting MOVES = n
 
-find card : int(0..51)
+find piles : matrix indexed by [ROWS, COLUMNS] of int(-2..51)
 
 such that
 
-card in CLUBS /\ card in toSet(cards)
+$Cards in first pile must be unique cards from cards list
+forAll col : int(1..n) .
+  piles[1, col] = cards[col],
+
+
+$Number of empty elements must increase as moves are made
+forAll row : int(1..n) .
+  forAll col : int(n - row + 2..n) .
+    piles[row, col] = -1
+
+
+
+$max distance 
       
+
   
 
