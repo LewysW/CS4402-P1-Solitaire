@@ -1,0 +1,9 @@
+language ESSENCE' 1.0
+
+given cards : matrix indexed by [ int(1..n) ] of int(0..51) where alldifferent(cards)
+
+find card : int (0..51)
+
+such that
+
+card = 0

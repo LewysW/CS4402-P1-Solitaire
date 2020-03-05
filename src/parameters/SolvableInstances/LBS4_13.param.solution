@@ -1,0 +1,6 @@
+language ESSENCE' 1.0
+$ Minion SolverNodes: 1
+$ Minion SolverTotalTime: 0.054869
+$ Minion SolverTimeOut: 0
+$ Savile Row TotalTime: 0.051
+letting card be 0
