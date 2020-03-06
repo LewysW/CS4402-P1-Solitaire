@@ -2,9 +2,9 @@ MINION 3
 # CSETopLevel_number = 0
 # CSETopLevel_eliminated_expressions = 0
 # CSETopLevel_total_size = 0
-# CSE_active_number = 16
-# CSE_active_eliminated_expressions = 63
-# CSE_active_total_size = 123
+# CSE_active_number = 27
+# CSE_active_eliminated_expressions = 89
+# CSE_active_total_size = 193
 **VARIABLES**
 DISCRETE piles_00002_00001 #
 {0..7}
@@ -36,132 +36,150 @@ DISCRETE piles_00004_00001 #
 **CONSTRAINTS**
 w-inintervalset(piles_00004_00001, [0,0,3,3,5,5,7,7])
 **VARIABLES**
-DISCRETE aux23 #
-{0..1}
-DISCRETE aux24 #
-{0..1}
-DISCRETE aux25 #
-{0..1}
-DISCRETE aux26 #
-{0..1}
-DISCRETE aux27 #
-{0..1}
-DISCRETE aux28 #
-{0..1}
-DISCRETE aux29 #
-{0..1}
-DISCRETE aux30 #
-{0..1}
-DISCRETE aux31 #
-{0..1}
 DISCRETE aux32 #
 {0..1}
 DISCRETE aux33 #
 {0..1}
 DISCRETE aux34 #
 {0..1}
-BOOL aux35 #Active-CSE: 4 occurrences of this expression or equivalent: (piles_00002_00002 != (piles_00002_00001 + piles_00002_00002 + piles_00002_00003 + -1 + -1 - -1 - -1 - piles_00003_00001 - piles_00003_00002))
-BOOL aux36 #Active-CSE: 4 occurrences of this expression or equivalent: (piles_00002_00001 != (piles_00002_00001 + piles_00002_00002 + piles_00002_00003 + -1 + -1 - -1 - -1 - piles_00003_00001 - piles_00003_00002))
-BOOL aux37 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00003_00001 != (-1 + -1 + -1 - -1 - -1 - -1 + piles_00003_00001 + piles_00003_00002 - piles_00004_00001))
-BOOL aux38 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00003=(piles_00002_00001 + piles_00002_00002 + piles_00002_00003 + -1 + -1 - -1 - -1 - piles_00003_00001 - piles_00003_00002))
-DISCRETE aux39 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + -1 + -1 - -1 - -1 - -1 + piles_00003_00001 + piles_00003_00002 - piles_00004_00001)
+DISCRETE aux35 #
+{0..1}
+DISCRETE aux36 #
+{0..1}
+DISCRETE aux37 #
+{0..1}
+DISCRETE aux38 #
+{0..1}
+DISCRETE aux39 #
+{0..1}
+DISCRETE aux40 #
+{0..1}
+DISCRETE aux41 #
+{0..1}
+DISCRETE aux42 #
+{0..1}
+DISCRETE aux43 #
+{0..1}
+BOOL aux44 #Active-CSE: 5 occurrences of this expression or equivalent: (piles_00002_00002 != (piles_00002_00001 + piles_00002_00002 + piles_00002_00003 + -1 + -1 - -1 - -1 - piles_00003_00001 - piles_00003_00002))
+BOOL aux45 #Active-CSE: 5 occurrences of this expression or equivalent: (piles_00002_00001 != (piles_00002_00001 + piles_00002_00002 + piles_00002_00003 + -1 + -1 - -1 - -1 - piles_00003_00001 - piles_00003_00002))
+BOOL aux48 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00001 != (-1 + -1 + -1 - -1 - -1 - -1 + piles_00003_00001 + piles_00003_00002 - piles_00004_00001))
+DISCRETE aux49 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + -1 + -1 - -1 - -1 - -1 + piles_00003_00001 + piles_00003_00002 - piles_00004_00001)
 {-4..12}
-DISCRETE aux40 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00001 + piles_00002_00002 + piles_00002_00003 + -1 + -1 - -1 - -1 - piles_00003_00001 - piles_00003_00002)
+DISCRETE aux50 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00001 + piles_00002_00002 + piles_00002_00003 + -1 + -1 - -1 - -1 - piles_00003_00001 - piles_00003_00002)
 {-9..17}
-BOOL aux41 #Active-CSE: 6 occurrences of this expression or equivalent: (-8=( - piles_00002_00001 - piles_00002_00002 - piles_00002_00003))
-BOOL aux42 #Active-CSE: 6 occurrences of this expression or equivalent: (-12=( - piles_00002_00001 - piles_00002_00002 - piles_00002_00003))
-BOOL aux44 #Active-CSE: 6 occurrences of this expression or equivalent: (-10=( - piles_00002_00001 - piles_00002_00002 - piles_00002_00003))
-BOOL aux45 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00002 != piles_00004_00001)
-BOOL aux46 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00002 != piles_00003_00001)
-BOOL aux47 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00003 != piles_00003_00002)
-DISCRETE aux48 #Active-CSE: 8 occurrences of this expression or equivalent: ( - piles_00002_00001 - piles_00002_00002 - piles_00002_00003)
+BOOL aux52 #Active-CSE: 2 occurrences of this expression or equivalent: ((piles_00002_00001%13)=(piles_00002_00002%13))
+BOOL aux53 #Active-CSE: 2 occurrences of this expression or equivalent: ((piles_00002_00002%13)=(piles_00002_00003%13))
+BOOL aux56 #Active-CSE: 2 occurrences of this expression or equivalent: ((piles_00003_00001%13)=(piles_00003_00002%13))
+BOOL aux57 #Active-CSE: 6 occurrences of this expression or equivalent: (-8=( - piles_00002_00001 - piles_00002_00002 - piles_00002_00003))
+BOOL aux58 #Active-CSE: 6 occurrences of this expression or equivalent: (-12=( - piles_00002_00001 - piles_00002_00002 - piles_00002_00003))
+BOOL aux60 #Active-CSE: 6 occurrences of this expression or equivalent: (-10=( - piles_00002_00001 - piles_00002_00002 - piles_00002_00003))
+BOOL aux61 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00002 != piles_00004_00001)
+BOOL aux62 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00002 != piles_00003_00001)
+BOOL aux63 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00003 != piles_00003_00002)
+DISCRETE aux64 #Active-CSE: 8 occurrences of this expression or equivalent: ( - piles_00002_00001 - piles_00002_00002 - piles_00002_00003)
 {-17..-5}
 **CONSTRAINTS**
-w-inintervalset(aux48, [-17,-17,-14,-5])
+w-inintervalset(aux64, [-17,-17,-14,-5])
 **VARIABLES**
-DISCRETE aux49 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00002_00002%13)
+DISCRETE aux65 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00002_00002%13)
 {0..7}
 **CONSTRAINTS**
-w-inintervalset(aux49, [0,0,3,3,5,5,7,7])
+w-inintervalset(aux65, [0,0,3,3,5,5,7,7])
 **VARIABLES**
-DISCRETE aux51 #
+DISCRETE aux66 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00003_00001%13)
 {0..7}
 **CONSTRAINTS**
-w-inintervalset(aux51, [0,0,3,3,5,5,7,7])
+w-inintervalset(aux66, [0,0,3,3,5,5,7,7])
 **VARIABLES**
-BOOL aux53 #(piles_00003_00002=aux39)
+DISCRETE aux67 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00003_00002%13)
+{0..7}
+**CONSTRAINTS**
+w-inintervalset(aux67, [0,0,3,3,5,5,7,7])
+**VARIABLES**
+DISCRETE aux69 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00002_00001%13)
+{0..7}
+**CONSTRAINTS**
+w-inintervalset(aux69, [0,0,3,3,5,5,7,7])
+**VARIABLES**
+DISCRETE aux70 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00002_00003%13)
+{0..7}
+**CONSTRAINTS**
+w-inintervalset(aux70, [0,0,3,3,5,5,7,7])
+**VARIABLES**
 **VARIABLES**
 ALIAS cards[4]=[3, 7, 5, 0]
 **SEARCH**
 PRINT[[piles_00002_00001],[piles_00002_00002],[piles_00002_00003],[piles_00003_00001],[piles_00003_00002],[piles_00004_00001]]
 VARORDER STATIC [piles_00002_00001, piles_00002_00002, piles_00002_00003, piles_00003_00001, piles_00003_00002, piles_00004_00001]
 **CONSTRAINTS**
-reify(gaceq(piles_00003_00002,aux39), aux53)
-modulo(piles_00003_00002,13,aux51)
-div(piles_00003_00002, 13, 0)
-reify(diseq(piles_00002_00002,aux40), aux35)
-reify(diseq(piles_00002_00001,aux40), aux36)
-reify(diseq(piles_00003_00001,aux39), aux37)
-reify(gaceq(piles_00002_00003,aux40), aux38)
-reify(w-literal(aux48,-8), aux41)
-reify(w-literal(aux48,-12), aux42)
-reify(w-literal(aux48,-10), aux44)
-reify(diseq(piles_00003_00002,piles_00004_00001), aux45)
-reify(diseq(piles_00002_00002,piles_00003_00001), aux46)
-reify(diseq(piles_00002_00003,piles_00003_00002), aux47)
-modulo(piles_00002_00002,13,aux49)
+reify(diseq(piles_00002_00002,aux50), aux44)
+reify(diseq(piles_00002_00001,aux50), aux45)
+diseq(piles_00003_00002,aux49)
+diseq(piles_00002_00003,aux50)
+reify(diseq(piles_00003_00001,aux49), aux48)
+reify(gaceq(aux69,aux65), aux52)
+reify(gaceq(aux65,aux70), aux53)
+div(piles_00002_00001, 13, 0)
+div(piles_00002_00003, 13, 0)
+reify(gaceq(aux66,aux67), aux56)
+reify(w-literal(aux64,-8), aux57)
+reify(w-literal(aux64,-12), aux58)
+reify(w-literal(aux64,-10), aux60)
+reify(diseq(piles_00003_00002,piles_00004_00001), aux61)
+reify(diseq(piles_00002_00002,piles_00003_00001), aux62)
+reify(diseq(piles_00002_00003,piles_00003_00002), aux63)
+modulo(piles_00002_00002,13,aux65)
+modulo(piles_00003_00001,13,aux66)
+modulo(piles_00003_00002,13,aux67)
 div(piles_00002_00002, 13, 0)
-reifyimply(diseq(3,piles_00004_00001), aux42)
-reifyimply(diseq(piles_00002_00001,3), aux42)
-reifyimply(diseq(piles_00002_00002,3), aux42)
-reifyimply(diseq(piles_00002_00003,3), aux42)
-reifyimply(diseq(3,piles_00003_00001), aux42)
-reifyimply(diseq(3,piles_00003_00002), aux42)
-reifyimply(diseq(7,piles_00004_00001), aux41)
-reifyimply(diseq(piles_00002_00001,7), aux41)
-reifyimply(diseq(piles_00002_00002,7), aux41)
-reifyimply(diseq(piles_00002_00003,7), aux41)
-reifyimply(diseq(7,piles_00003_00001), aux41)
-reifyimply(diseq(7,piles_00003_00002), aux41)
-reifyimply(diseq(5,piles_00004_00001), aux44)
-reifyimply(diseq(piles_00002_00001,5), aux44)
-reifyimply(diseq(piles_00002_00002,5), aux44)
-reifyimply(diseq(piles_00002_00003,5), aux44)
-reifyimply(diseq(5,piles_00003_00001), aux44)
-reifyimply(diseq(5,piles_00003_00002), aux44)
-reifyimply(diseq(piles_00002_00001,piles_00004_00001), !aux36)
-reifyimply(diseq(piles_00002_00001,piles_00003_00001), !aux36)
-reifyimply(diseq(piles_00002_00001,piles_00003_00002), !aux36)
-reifyimply(diseq(piles_00002_00002,piles_00004_00001), !aux35)
-ineq(!aux35, aux46, 0)
-reifyimply(diseq(piles_00002_00002,piles_00003_00002), !aux35)
-reifyimply(diseq(piles_00002_00003,piles_00004_00001), aux38)
-reifyimply(diseq(piles_00002_00003,piles_00003_00001), aux38)
-ineq(aux38, aux47, 0)
-reifyimply(diseq(piles_00003_00001,piles_00004_00001), !aux37)
-ineq(aux53, aux45, 0)
-watched-or({diseq(-12,aux48),w-literal(piles_00002_00001,0),w-literal(piles_00002_00001,7)})
-watched-or({diseq(-8,aux48),w-literal(piles_00002_00002,5)})
-watched-or({diseq(-10,aux48),w-literal(piles_00002_00003,0)})
-watched-or({w-literal(aux36,1),w-literal(aux46,0)})
-watched-or({w-literal(aux35,1),w-literal(aux47,0)})
-watched-or({w-literal(aux37,1),w-literal(aux45,0)})
-watched-or({modulo(piles_00003_00001,13,aux51),w-literal(aux45,1),div(piles_00003_00001, 13, 0)})
-watched-or({modulo(piles_00002_00001,13,aux49),w-literal(aux46,1),div(piles_00002_00001, 13, 0)})
-watched-or({modulo(piles_00002_00003,13,aux49),w-literal(aux47,1),div(piles_00002_00003, 13, 0)})
-gccweak([piles_00002_00001, piles_00002_00002, piles_00002_00003],[0, 3, 5, 7],[aux23, aux24, aux25, aux26])
-gccweak([piles_00003_00001, piles_00003_00002],[0, 3, 5, 7],[aux27, aux28, aux29, aux30])
-gccweak([piles_00004_00001],[0, 3, 5, 7],[aux31, aux32, aux33, aux34])
-weightedsumleq([1,1,1,-1,-1,-1,1,1,-1],[-1,-1,-1,-1,-1,-1,piles_00003_00001,piles_00003_00002,piles_00004_00001],aux39)
-weightedsumgeq([1,1,1,-1,-1,-1,1,1,-1],[-1,-1,-1,-1,-1,-1,piles_00003_00001,piles_00003_00002,piles_00004_00001],aux39)
-weightedsumleq([1,1,1,1,1,-1,-1,-1,-1],[piles_00002_00001,piles_00002_00002,piles_00002_00003,-1,-1,-1,-1,piles_00003_00001,piles_00003_00002],aux40)
-weightedsumgeq([1,1,1,1,1,-1,-1,-1,-1],[piles_00002_00001,piles_00002_00002,piles_00002_00003,-1,-1,-1,-1,piles_00003_00001,piles_00003_00002],aux40)
-weightedsumleq([-1,-1,-1],[piles_00002_00001,piles_00002_00002,piles_00002_00003],aux48)
-weightedsumgeq([-1,-1,-1],[piles_00002_00001,piles_00002_00002,piles_00002_00003],aux48)
-sumleq([aux23,aux24,aux25,aux26],3)
-sumgeq([aux23,aux24,aux25,aux26],3)
-sumleq([aux27,aux28,aux29,aux30],2)
-sumgeq([aux27,aux28,aux29,aux30],2)
-sumleq([aux31,aux32,aux33,aux34],1)
-sumgeq([aux31,aux32,aux33,aux34],1)
+modulo(piles_00002_00001,13,aux69)
+modulo(piles_00002_00003,13,aux70)
+reifyimply(diseq(piles_00002_00001,piles_00004_00001), !aux45)
+watched-or({w-literal(aux44,1),w-literal(aux63,0)})
+reifyimply(diseq(piles_00002_00003,7), aux57)
+watched-or({diseq(-10,aux64),w-literal(piles_00002_00003,0)})
+reifyimply(diseq(piles_00002_00002,7), aux57)
+reifyimply(diseq(piles_00002_00001,7), aux57)
+reifyimply(diseq(5,piles_00003_00002), aux60)
+reifyimply(diseq(5,piles_00003_00001), aux60)
+watched-or({diseq(-8,aux64),w-literal(piles_00002_00002,5)})
+watched-or({w-literal(aux45,1),w-literal(aux62,0)})
+watched-or({diseq(-12,aux64),w-literal(piles_00002_00001,0),w-literal(piles_00002_00001,7)})
+watched-or({w-literal(aux48,1),w-literal(aux61,0)})
+reifyimply(diseq(piles_00002_00003,5), aux60)
+reifyimply(diseq(piles_00002_00002,5), aux60)
+reifyimply(diseq(piles_00002_00001,5), aux60)
+reifyimply(diseq(3,piles_00004_00001), aux58)
+reifyimply(diseq(piles_00003_00001,piles_00004_00001), !aux48)
+ineq(!aux44, aux62, 0)
+reifyimply(diseq(piles_00002_00002,piles_00003_00002), !aux44)
+reifyimply(diseq(3,piles_00003_00002), aux58)
+reifyimply(diseq(3,piles_00003_00001), aux58)
+reifyimply(diseq(7,piles_00004_00001), aux57)
+reifyimply(diseq(piles_00002_00002,piles_00004_00001), !aux44)
+reifyimply(diseq(piles_00002_00001,piles_00003_00001), !aux45)
+reifyimply(diseq(piles_00002_00001,piles_00003_00002), !aux45)
+reifyimply(diseq(piles_00002_00003,3), aux58)
+reifyimply(diseq(piles_00002_00002,3), aux58)
+reifyimply(diseq(piles_00002_00001,3), aux58)
+reifyimply(diseq(7,piles_00003_00002), aux57)
+reifyimply(diseq(7,piles_00003_00001), aux57)
+reifyimply(diseq(5,piles_00004_00001), aux60)
+gccweak([piles_00003_00001, piles_00003_00002],[0, 3, 5, 7],[aux32, aux33, aux34, aux35])
+gccweak([piles_00002_00001, piles_00002_00002, piles_00002_00003],[0, 3, 5, 7],[aux36, aux37, aux38, aux39])
+gccweak([piles_00004_00001],[0, 3, 5, 7],[aux40, aux41, aux42, aux43])
+div(piles_00003_00001, 13, 0)
+div(piles_00003_00002, 13, 0)
+weightedsumleq([1,1,1,-1,-1,-1,1,1,-1],[-1,-1,-1,-1,-1,-1,piles_00003_00001,piles_00003_00002,piles_00004_00001],aux49)
+weightedsumgeq([1,1,1,-1,-1,-1,1,1,-1],[-1,-1,-1,-1,-1,-1,piles_00003_00001,piles_00003_00002,piles_00004_00001],aux49)
+weightedsumleq([1,1,1,1,1,-1,-1,-1,-1],[piles_00002_00001,piles_00002_00002,piles_00002_00003,-1,-1,-1,-1,piles_00003_00001,piles_00003_00002],aux50)
+weightedsumgeq([1,1,1,1,1,-1,-1,-1,-1],[piles_00002_00001,piles_00002_00002,piles_00002_00003,-1,-1,-1,-1,piles_00003_00001,piles_00003_00002],aux50)
+weightedsumleq([-1,-1,-1],[piles_00002_00001,piles_00002_00002,piles_00002_00003],aux64)
+weightedsumgeq([-1,-1,-1],[piles_00002_00001,piles_00002_00002,piles_00002_00003],aux64)
+sumleq([aux32,aux33,aux34,aux35],2)
+sumgeq([aux32,aux33,aux34,aux35],2)
+sumleq([aux36,aux37,aux38,aux39],3)
+sumgeq([aux36,aux37,aux38,aux39],3)
+sumleq([aux40,aux41,aux42,aux43],1)
+sumgeq([aux40,aux41,aux42,aux43],1)
 **EOF**

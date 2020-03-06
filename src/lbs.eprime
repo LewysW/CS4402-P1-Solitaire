@@ -63,18 +63,19 @@ forAll pile : int(2..n) .
   forAll card : int(1..(n - pile + 1)) .
     (piles[pile, card] = piles[pile - 1, card + 3]) ->
       (piles[pile - 1, card] % SUIT) = (piles[pile - 1, card + 3] % SUIT)
-      \/ (piles[pile - 1, card] / SUIT) = (piles[pile - 1, card + 3] / SUIT)
+      \/ (piles[pile - 1, card] / SUIT) = (piles[pile - 1, card + 3] / SUIT),
 
-$Rank or suit of nearby card must be same as card it is replacing
-$forAll pile : int(1..n-1) .
-$  forAll card : int(1..(n - pile + 1)) .
+$Card being replaced must have same rank or suit value as either adjacent card
+$or card 3 spaces away
+forAll pile : int(1..n-1) .
+  forAll card : int(1..(n - pile + 1)) .
     $If there is a card in the first pile but not the second
-$    (piles[pile, card] = ((sum(piles[pile,..])) - (sum(piles[pile + 1,..])) - 1)) ->
+    (piles[pile, card] = ((sum(piles[pile,..])) - (sum(piles[pile + 1,..])) - 1)) ->
       $Card at i + 1 or i + 3 must have same suit or rank
-$      ((piles[pile, card] % SUIT) = (piles[pile, card + 1] % SUIT))
-$      \/
-$      ((piles[pile, card] / SUIT) = (piles[pile, card + 1] / SUIT))
-$      \/
-$      ((piles[pile, card] % SUIT) = (piles[pile, card + 3] % SUIT))
-$      \/
-$      ((piles[pile, card] / SUIT) = (piles[pile, card + 3] / SUIT))
+      ((piles[pile, card] % SUIT) = (piles[pile, card + 1] % SUIT))
+      \/
+      ((piles[pile, card] / SUIT) = (piles[pile, card + 1] / SUIT))
+      \/
+      ((piles[pile, card] % SUIT) = (piles[pile, card + 3] % SUIT))
+      \/
+      ((piles[pile, card] / SUIT) = (piles[pile, card + 3] / SUIT))
