@@ -6,10 +6,73 @@ MINION 3
 # CSE_active_eliminated_expressions = 0
 # CSE_active_total_size = 0
 **VARIABLES**
+DISCRETE piles_00002_00001 #
+{3..29}
+**CONSTRAINTS**
+w-inintervalset(piles_00002_00001, [3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE piles_00002_00002 #
+{3..29}
+**CONSTRAINTS**
+w-inintervalset(piles_00002_00002, [3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE piles_00002_00003 #
+{3..29}
+**CONSTRAINTS**
+w-inintervalset(piles_00002_00003, [3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE piles_00003_00001 #
+{3..29}
+**CONSTRAINTS**
+w-inintervalset(piles_00003_00001, [3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE piles_00003_00002 #
+{3..29}
+**CONSTRAINTS**
+w-inintervalset(piles_00003_00002, [3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE piles_00004_00001 #
+{3..29}
+**CONSTRAINTS**
+w-inintervalset(piles_00004_00001, [3,3,12,12,27,27,29,29])
+**VARIABLES**
+DISCRETE aux3 #
+{0..1}
+DISCRETE aux4 #
+{0..1}
+DISCRETE aux5 #
+{0..1}
+DISCRETE aux6 #
+{0..1}
+DISCRETE aux7 #
+{0..1}
+DISCRETE aux8 #
+{0..1}
+DISCRETE aux9 #
+{0..1}
+DISCRETE aux10 #
+{0..1}
+DISCRETE aux11 #
+{0..1}
+DISCRETE aux12 #
+{0..1}
+DISCRETE aux13 #
+{0..1}
+DISCRETE aux14 #
+{0..1}
 **VARIABLES**
 ALIAS cards[4]=[12, 29, 27, 3]
 **SEARCH**
-PRINT[]
-VARORDER STATIC []
+PRINT[[piles_00002_00001],[piles_00002_00002],[piles_00002_00003],[piles_00003_00001],[piles_00003_00002],[piles_00004_00001]]
+VARORDER STATIC [piles_00002_00001, piles_00002_00002, piles_00002_00003, piles_00003_00001, piles_00003_00002, piles_00004_00001]
 **CONSTRAINTS**
-true()**EOF**
+gccweak([piles_00002_00001, piles_00002_00002, piles_00002_00003],[3, 12, 27, 29],[aux3, aux4, aux5, aux6])
+gccweak([piles_00003_00001, piles_00003_00002],[3, 12, 27, 29],[aux7, aux8, aux9, aux10])
+gccweak([piles_00004_00001],[3, 12, 27, 29],[aux11, aux12, aux13, aux14])
+sumleq([aux3,aux4,aux5,aux6],3)
+sumgeq([aux3,aux4,aux5,aux6],3)
+sumleq([aux7,aux8,aux9,aux10],2)
+sumgeq([aux7,aux8,aux9,aux10],2)
+sumleq([aux11,aux12,aux13,aux14],1)
+sumgeq([aux11,aux12,aux13,aux14],1)
+**EOF**

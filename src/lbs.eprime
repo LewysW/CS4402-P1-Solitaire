@@ -20,12 +20,14 @@ forAll pile : int(2..n) .
   forAll card : int((n - pile + 2)..n) .
     piles[pile, card] = -1,
 
-
+$Ensures that all cards in piles must be present in the deck of cards
 forAll pile : int(1..n) .
   forAll card : int(1..(n - pile + 1)) .
-    piles[pile, card] in toSet(cards)
+    piles[pile, card] in toSet(cards),
 
-$allDiff([piles[pile,card] | pile : int(1..n), card : int(1..(n - pile + 1))])
+$Ensures no card is repeat at each stage (except for empty piles)
+forAll pile : int(1..n) .
+    alldifferent_except(piles[pile,..], -1)
 
-
-$max distance
+$Need to ensure that each card could be placed on top of card above it in column
+$forAll pile : int()
