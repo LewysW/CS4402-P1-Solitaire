@@ -1,0 +1,195 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+DISCRETE piles_00002_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00002_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00002_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00002_00004 #
+{5..44}
+**CONSTRAINTS**
+w-inintervalset(piles_00002_00004, [5,5,8,8,15,15,27,29,31,31,41,41,44,44])
+**VARIABLES**
+DISCRETE piles_00002_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00002_00006 #
+{5..44}
+**CONSTRAINTS**
+w-inintervalset(piles_00002_00006, [5,5,8,8,15,15,27,29,31,31,41,41,44,44])
+**VARIABLES**
+DISCRETE piles_00002_00007 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00002_00008 #
+{5..44}
+**CONSTRAINTS**
+w-inintervalset(piles_00002_00008, [5,5,8,8,15,15,27,29,31,31,41,41,44,44])
+**VARIABLES**
+DISCRETE piles_00003_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00003_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00003_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00003_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00003_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00003_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00003_00007 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00004_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00004_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00004_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00004_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00004_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00004_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00005_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00005_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00005_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00005_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00005_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00006_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00006_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00006_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00006_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00007_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00007_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00007_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00008_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00008_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE piles_00009_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+**VARIABLES**
+ALIAS cards[9]=[44, 29, 31, 5, 15, 27, 41, 28, 8]
+**SEARCH**
+PRINT[[piles_00002_00001],[piles_00002_00002],[piles_00002_00003],[piles_00002_00004],[piles_00002_00005],[piles_00002_00006],[piles_00002_00007],[piles_00002_00008],[piles_00003_00001],[piles_00003_00002],[piles_00003_00003],[piles_00003_00004],[piles_00003_00005],[piles_00003_00006],[piles_00003_00007],[piles_00004_00001],[piles_00004_00002],[piles_00004_00003],[piles_00004_00004],[piles_00004_00005],[piles_00004_00006],[piles_00005_00001],[piles_00005_00002],[piles_00005_00003],[piles_00005_00004],[piles_00005_00005],[piles_00006_00001],[piles_00006_00002],[piles_00006_00003],[piles_00006_00004],[piles_00007_00001],[piles_00007_00002],[piles_00007_00003],[piles_00008_00001],[piles_00008_00002],[piles_00009_00001]]
+VARORDER STATIC [piles_00002_00001, piles_00002_00002, piles_00002_00003, piles_00002_00004, piles_00002_00005, piles_00002_00006, piles_00002_00007, piles_00002_00008, piles_00003_00001, piles_00003_00002, piles_00003_00003, piles_00003_00004, piles_00003_00005, piles_00003_00006, piles_00003_00007, piles_00004_00001, piles_00004_00002, piles_00004_00003, piles_00004_00004, piles_00004_00005, piles_00004_00006, piles_00005_00001, piles_00005_00002, piles_00005_00003, piles_00005_00004, piles_00005_00005, piles_00006_00001, piles_00006_00002, piles_00006_00003, piles_00006_00004, piles_00007_00001, piles_00007_00002, piles_00007_00003, piles_00008_00001, piles_00008_00002, piles_00009_00001]
+**CONSTRAINTS**
+false()**EOF**

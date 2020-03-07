@@ -43,7 +43,7 @@ forAll pile : int(1..n-1) .
 
 $Card is replaced by either adjacent card or card three spaces away
 forAll pile : int(1..n-1) .
-  forAll card : int(1..(n - pile + 1)) .
+  exists card : int(1..(n - pile + 1)) .
     $If there is a card in the first pile but not the second
     (piles[pile, card] = ((sum(piles[pile,..])) - (sum(piles[pile + 1,..])) - 1)) ->
       $Card must have been replaced by a card from index i + 1 or i + 3
@@ -54,10 +54,11 @@ forAll pile : int(1..n-1) .
 $If card was replaced by adjacent card then old value must have been same suit or rank as new value
 forAll pile : int(2..n) .
   forAll card : int(1..(n - pile + 1)) .
-    (piles[pile, card] = piles[pile - 1, card + 1]) ->
+    ((piles[pile, card] = piles[pile - 1, card + 1]) ->
       (piles[pile - 1, card] % SUIT) = (piles[pile - 1, card + 1] % SUIT)
-      \/ (piles[pile - 1, card] / SUIT) = (piles[pile - 1, card + 1] / SUIT),
-
+      \/ (piles[pile - 1, card] / SUIT) = (piles[pile - 1, card + 1] / SUIT)),
+      
+    
 $If card was replaced by card three spaces away then old value must have had same suit or rank as new value
 forAll pile : int(2..n) .
   forAll card : int(1..(n - pile + 1)) .
@@ -65,10 +66,16 @@ forAll pile : int(2..n) .
       (piles[pile - 1, card] % SUIT) = (piles[pile - 1, card + 3] % SUIT)
       \/ (piles[pile - 1, card] / SUIT) = (piles[pile - 1, card + 3] / SUIT),
 
+$If card at index has not been replaced then it must be the same as before (no permuting values)
+forAll pile : int(2..n) .
+  forAll card : int(1..(n - pile + 1)) .
+    !((piles[pile, card] = piles[pile - 1, card + 1]) \/ piles[pile, card] = piles[pile - 1, card + 3]) ->
+      (piles[pile, card] = piles[pile - 1, card]),
+
 $Card being replaced must have same rank or suit value as either adjacent card
 $or card 3 spaces away
 forAll pile : int(1..n-1) .
-  forAll card : int(1..(n - pile + 1)) .
+  exists card : int(1..(n - pile + 1)) .
     $If there is a card in the first pile but not the second
     (piles[pile, card] = ((sum(piles[pile,..])) - (sum(piles[pile + 1,..])) - 1)) ->
       $Card at i + 1 or i + 3 must have same suit or rank
