@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+#savilerow directory
+savilerow-1.8.0-linux

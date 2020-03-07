@@ -2,12 +2,10 @@ language ESSENCE' 1.0
 
 given cards : matrix indexed by [ int(1..n) ] of int(0..51) where alldifferent(cards)
 
-letting ROWS = int(1..n)
-letting COLUMNS = int(1..n)
-letting MOVES = n
+letting RANGE = int(1..n)
 letting SUIT = 13
 
-find piles : matrix indexed by [ROWS, COLUMNS] of int(-1..51)
+find piles : matrix indexed by [RANGE, RANGE] of int(-1..51)
 
 such that
 
@@ -29,10 +27,12 @@ $There exists a source card which is not the first card
   exists dest : int(src - 3,src - 1) .
     $Where the destination card in the new pile, equals the source card of the old pile
     ((piles[pile + 1, dest] = piles[pile, src])
-      $And the destination card of the old pile must either have the same suit or rank as the source card
+      $And the destination card of the old pile must either have...
       /\
+      $...the same rank as the source card...
       ((piles[pile, dest] % SUIT = piles[pile, src] % SUIT)
       \/
+      $...or the same suit as the source card
       (piles[pile, dest] / SUIT = piles[pile, src] / SUIT)))
       /\
       $And all for all other cards
