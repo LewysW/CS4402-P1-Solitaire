@@ -6,22 +6,10 @@ MINION 3
 # CSE_active_eliminated_expressions = 0
 # CSE_active_total_size = 0
 **VARIABLES**
-DISCRETE piles_00002_00001 #
-{-1..51}
-DISCRETE piles_00002_00002 #
-{-1..51}
-DISCRETE piles_00002_00003 #
-{-1..51}
-DISCRETE piles_00003_00001 #
-{-1..51}
-DISCRETE piles_00004_00001 #
-{-1..51}
 **VARIABLES**
 ALIAS cards[4]=[12, 29, 27, 3]
 **SEARCH**
-PRINT[[piles_00002_00001],[piles_00002_00002],[piles_00002_00003],[piles_00003_00001],[piles_00004_00001]]
-VARORDER STATIC [piles_00002_00001, piles_00002_00002, piles_00002_00003, piles_00003_00001, piles_00004_00001]
+PRINT[]
+VARORDER STATIC []
 **CONSTRAINTS**
-watched-or({w-literal(piles_00002_00001,3),w-literal(piles_00002_00001,29),w-literal(piles_00002_00002,27),w-literal(piles_00002_00003,3)})
-watched-or({gaceq(piles_00002_00003,piles_00004_00001),gaceq(piles_00002_00002,piles_00003_00001)})
-**EOF**
+true()**EOF**
