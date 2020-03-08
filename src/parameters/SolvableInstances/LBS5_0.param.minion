@@ -2,53 +2,21 @@ MINION 3
 # CSETopLevel_number = 0
 # CSETopLevel_eliminated_expressions = 0
 # CSETopLevel_total_size = 0
-# CSE_active_number = 2
-# CSE_active_eliminated_expressions = 6
-# CSE_active_total_size = 5
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
 **VARIABLES**
-DISCRETE piles_00003_00001 #
+DISCRETE seqs_00003_00001 #
 {31..44}
 **CONSTRAINTS**
-w-inintervalset(piles_00003_00001, [31,31,44,44])
+w-inintervalset(seqs_00003_00001, [31,31,44,44])
 **VARIABLES**
-DISCRETE aux38 #
-{0..1}
-DISCRETE aux39 #
-{0..1}
-DISCRETE aux40 #
-{0..1}
-DISCRETE aux41 #
-{0..1}
-DISCRETE aux43 #Active-CSE: 3 occurrences of this expression or equivalent: (-piles_00003_00001)
-{-44..-31}
-**CONSTRAINTS**
-w-inintervalset(aux43, [-44,-44,-31,-31])
-**VARIABLES**
-BOOL aux44 #(-31=aux43)
-BOOL aux45 #(-44=aux43)
-DISCRETE aux46 #(-1 + aux38)
-{-1..0}
-DISCRETE aux47 #(-1 + aux39)
-{-1..0}
 **VARIABLES**
 ALIAS cards[5]=[44, 29, 31, 5, 4]
 **SEARCH**
-PRINT[[piles_00003_00001]]
-VARORDER STATIC [piles_00003_00001]
+PRINT[[seqs_00003_00001]]
+VARORDER STATIC [seqs_00003_00001]
 **CONSTRAINTS**
-reify(w-literal(aux43,-31), aux44)
-reify(w-literal(aux43,-44), aux45)
-modulo(piles_00003_00001,13,5)
-minuseq(aux43, piles_00003_00001)
-reifyimply(diseq(44,piles_00003_00001), aux44)
-watched-or({w-literal(piles_00003_00001,31),w-literal(piles_00003_00001,44)})
-watched-or({w-literal(piles_00003_00001,31),diseq(-31,aux43)})
-reifyimply(diseq(31,piles_00003_00001), aux45)
-gccweak([piles_00003_00001],[4, 5, 31, 44],[aux46, aux47, aux40, aux41])
-sumleq([-1,aux38],aux46)
-sumgeq([-1,aux38],aux46)
-sumleq([-1,aux39],aux47)
-sumgeq([-1,aux39],aux47)
-sumleq([aux38,aux39,aux40,aux41],3)
-sumgeq([aux38,aux39,aux40,aux41],3)
+watched-or({w-literal(seqs_00003_00001,31),w-literal(seqs_00003_00001,44)})
+modulo(seqs_00003_00001,13,5)
 **EOF**

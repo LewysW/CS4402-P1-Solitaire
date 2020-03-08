@@ -6,301 +6,301 @@ MINION 3
 # CSE_active_eliminated_expressions = 321
 # CSE_active_total_size = 288
 **VARIABLES**
-DISCRETE piles_00002_00001 #
+DISCRETE seqs_00002_00001 #
 {5..44}
 **CONSTRAINTS**
-w-inintervalset(piles_00002_00001, [5,5,18,18,31,31,44,44])
+w-inintervalset(seqs_00002_00001, [5,5,18,18,31,31,44,44])
 **VARIABLES**
-DISCRETE piles_00002_00002 #
+DISCRETE seqs_00002_00002 #
 {29..31}
-DISCRETE piles_00002_00003 #
+DISCRETE seqs_00002_00003 #
 {5..31}
 **CONSTRAINTS**
-w-inintervalset(piles_00002_00003, [5,5,14,18,27,31])
+w-inintervalset(seqs_00002_00003, [5,5,14,18,27,31])
 **VARIABLES**
-DISCRETE piles_00002_00004 #
+DISCRETE seqs_00002_00004 #
 {5..15}
 **CONSTRAINTS**
-w-inintervalset(piles_00002_00004, [5,5,15,15])
+w-inintervalset(seqs_00002_00004, [5,5,15,15])
 **VARIABLES**
-DISCRETE piles_00002_00005 #
+DISCRETE seqs_00002_00005 #
 {15..28}
 **CONSTRAINTS**
-w-inintervalset(piles_00002_00005, [15,15,27,28])
+w-inintervalset(seqs_00002_00005, [15,15,27,28])
 **VARIABLES**
-DISCRETE piles_00002_00006 #
+DISCRETE seqs_00002_00006 #
 {27..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00002_00006, [27,28,40,41])
+w-inintervalset(seqs_00002_00006, [27,28,40,41])
 **VARIABLES**
-DISCRETE piles_00002_00007 #
+DISCRETE seqs_00002_00007 #
 {28..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00002_00007, [28,28,41,41])
+w-inintervalset(seqs_00002_00007, [28,28,41,41])
 **VARIABLES**
-DISCRETE piles_00003_00001 #
+DISCRETE seqs_00003_00001 #
 {5..44}
 **CONSTRAINTS**
-w-inintervalset(piles_00003_00001, [5,5,18,18,31,31,44,44])
+w-inintervalset(seqs_00003_00001, [5,5,18,18,31,31,44,44])
 **VARIABLES**
-DISCRETE piles_00003_00002 #
+DISCRETE seqs_00003_00002 #
 {5..31}
 **CONSTRAINTS**
-w-inintervalset(piles_00003_00002, [5,5,14,18,27,31])
+w-inintervalset(seqs_00003_00002, [5,5,14,18,27,31])
 **VARIABLES**
-DISCRETE piles_00003_00003 #
+DISCRETE seqs_00003_00003 #
 {5..31}
 **CONSTRAINTS**
-w-inintervalset(piles_00003_00003, [5,5,14,18,27,31])
+w-inintervalset(seqs_00003_00003, [5,5,14,18,27,31])
 **VARIABLES**
-DISCRETE piles_00003_00004 #
+DISCRETE seqs_00003_00004 #
 {5..28}
 **CONSTRAINTS**
-w-inintervalset(piles_00003_00004, [5,5,14,18,27,28])
+w-inintervalset(seqs_00003_00004, [5,5,14,18,27,28])
 **VARIABLES**
-DISCRETE piles_00003_00005 #
+DISCRETE seqs_00003_00005 #
 {15..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00003_00005, [15,15,27,28,40,41])
+w-inintervalset(seqs_00003_00005, [15,15,27,28,40,41])
 **VARIABLES**
-DISCRETE piles_00003_00006 #
+DISCRETE seqs_00003_00006 #
 {28..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00003_00006, [28,28,41,41])
+w-inintervalset(seqs_00003_00006, [28,28,41,41])
 **VARIABLES**
-DISCRETE piles_00004_00001 #
+DISCRETE seqs_00004_00001 #
 {5..44}
 **CONSTRAINTS**
-w-inintervalset(piles_00004_00001, [5,5,14,18,27,31,40,44])
+w-inintervalset(seqs_00004_00001, [5,5,14,18,27,31,40,44])
 **VARIABLES**
-DISCRETE piles_00004_00002 #
+DISCRETE seqs_00004_00002 #
 {5..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00004_00002, [5,5,14,18,27,31,40,41])
+w-inintervalset(seqs_00004_00002, [5,5,14,18,27,31,40,41])
 **VARIABLES**
-DISCRETE piles_00004_00003 #
+DISCRETE seqs_00004_00003 #
 {5..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00004_00003, [5,5,14,18,27,31,40,41])
+w-inintervalset(seqs_00004_00003, [5,5,14,18,27,31,40,41])
 **VARIABLES**
-DISCRETE piles_00004_00004 #
+DISCRETE seqs_00004_00004 #
 {5..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00004_00004, [5,8,14,21,27,34,40,41])
+w-inintervalset(seqs_00004_00004, [5,8,14,21,27,34,40,41])
 **VARIABLES**
-DISCRETE piles_00004_00005 #
+DISCRETE seqs_00004_00005 #
 {15..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00004_00005, [15,15,27,28,40,41])
+w-inintervalset(seqs_00004_00005, [15,15,27,28,40,41])
 **VARIABLES**
-DISCRETE piles_00004_00006 #
+DISCRETE seqs_00004_00006 #
 {8..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00004_00006, [8,8,15,21,28,34,41,41])
+w-inintervalset(seqs_00004_00006, [8,8,15,21,28,34,41,41])
 **VARIABLES**
-DISCRETE piles_00005_00001 #
+DISCRETE seqs_00005_00001 #
 {5..44}
 **CONSTRAINTS**
-w-inintervalset(piles_00005_00001, [5,8,14,21,27,34,40,44])
+w-inintervalset(seqs_00005_00001, [5,8,14,21,27,34,40,44])
 **VARIABLES**
-DISCRETE piles_00005_00002 #
+DISCRETE seqs_00005_00002 #
 {5..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00005_00002, [5,5,14,18,27,31,40,41])
+w-inintervalset(seqs_00005_00002, [5,5,14,18,27,31,40,41])
 **VARIABLES**
-DISCRETE piles_00005_00003 #
+DISCRETE seqs_00005_00003 #
 {5..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00005_00003, [5,8,14,21,27,34,40,41])
+w-inintervalset(seqs_00005_00003, [5,8,14,21,27,34,40,41])
 **VARIABLES**
-DISCRETE piles_00005_00004 #
+DISCRETE seqs_00005_00004 #
 {5..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00005_00004, [5,8,14,21,27,34,40,41])
+w-inintervalset(seqs_00005_00004, [5,8,14,21,27,34,40,41])
 **VARIABLES**
-DISCRETE piles_00005_00005 #
+DISCRETE seqs_00005_00005 #
 {8..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00005_00005, [8,8,14,21,27,34,40,41])
+w-inintervalset(seqs_00005_00005, [8,8,14,21,27,34,40,41])
 **VARIABLES**
-DISCRETE piles_00006_00001 #
+DISCRETE seqs_00006_00001 #
 {5..44}
 **CONSTRAINTS**
-w-inintervalset(piles_00006_00001, [5,8,14,21,27,34,40,44])
+w-inintervalset(seqs_00006_00001, [5,8,14,21,27,34,40,44])
 **VARIABLES**
-DISCRETE piles_00006_00002 #
+DISCRETE seqs_00006_00002 #
 {5..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00006_00002, [5,8,14,21,27,34,40,41])
+w-inintervalset(seqs_00006_00002, [5,8,14,21,27,34,40,41])
 **VARIABLES**
-DISCRETE piles_00006_00003 #
+DISCRETE seqs_00006_00003 #
 {5..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00006_00003, [5,8,14,21,27,34,40,41])
+w-inintervalset(seqs_00006_00003, [5,8,14,21,27,34,40,41])
 **VARIABLES**
-DISCRETE piles_00006_00004 #
+DISCRETE seqs_00006_00004 #
 {5..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00006_00004, [5,8,14,21,27,34,40,41])
+w-inintervalset(seqs_00006_00004, [5,8,14,21,27,34,40,41])
 **VARIABLES**
-DISCRETE piles_00007_00001 #
+DISCRETE seqs_00007_00001 #
 {5..44}
-DISCRETE piles_00007_00002 #
+DISCRETE seqs_00007_00002 #
 {5..41}
 **CONSTRAINTS**
-w-inintervalset(piles_00007_00002, [5,8,14,21,27,34,40,41])
+w-inintervalset(seqs_00007_00002, [5,8,14,21,27,34,40,41])
 **VARIABLES**
-DISCRETE piles_00007_00003 #
-{5..41}
-**CONSTRAINTS**
-w-inintervalset(piles_00007_00003, [5,8,14,21,27,34,40,41])
-**VARIABLES**
-DISCRETE piles_00008_00001 #
+DISCRETE seqs_00008_00001 #
 {5..44}
-DISCRETE aux12 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00007_00002/13)
-{0..3}
-BOOL aux13 #Active-CSE: 7 occurrences of this expression or equivalent: (piles_00002_00003=piles_00003_00003)
-DISCRETE aux14 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00007_00002%13)
+**CONSTRAINTS**
+w-inintervalset(seqs_00008_00001, [5,8,14,21,27,34,40,44])
+**VARIABLES**
+DISCRETE seqs_00009_00001 #
+{5..41}
+DISCRETE aux12 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00007_00002%13)
 {1..8}
-DISCRETE aux15 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00004_00003/13)
+BOOL aux13 #Active-CSE: 5 occurrences of this expression or equivalent: (seqs_00005_00005=seqs_00006_00004)
+BOOL aux14 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00005_00003=seqs_00006_00002)
+BOOL aux15 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00004_00003=seqs_00005_00002)
+DISCRETE aux16 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00007_00002/13)
 {0..3}
-DISCRETE aux16 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00004_00002/13)
+BOOL aux17 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00003=seqs_00007_00002)
+BOOL aux18 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00001=seqs_00007_00001)
+BOOL aux19 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00002=seqs_00007_00002)
+DISCRETE aux20 #Active-CSE: 4 occurrences of this expression or equivalent: (seqs_00003_00004%13)
+{1..5}
+BOOL aux21 #Active-CSE: 4 occurrences of this expression or equivalent: (seqs_00003_00004=seqs_00004_00004)
+DISCRETE aux22 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00005_00001/13)
 {0..3}
-DISCRETE aux17 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00004_00005/13)
+DISCRETE aux23 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00005_00005/13)
+{0..3}
+DISCRETE aux24 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00005_00003/13)
+{0..3}
+DISCRETE aux25 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00004_00002/13)
+{0..3}
+DISCRETE aux26 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00004_00005/13)
 {1..3}
-DISCRETE aux18 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00004_00004/13)
+DISCRETE aux27 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00004_00003/13)
 {0..3}
-DISCRETE aux20 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00004_00005%13)
-{1..2}
-DISCRETE aux21 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00004_00004%13)
-{1..8}
-DISCRETE aux22 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00004_00003%13)
+DISCRETE aux28 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00004_00004/13)
+{0..3}
+DISCRETE aux29 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00004_00003%13)
 {1..5}
-DISCRETE aux23 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00004_00002%13)
-{1..5}
-BOOL aux24 #Active-CSE: 5 occurrences of this expression or equivalent: (piles_00006_00004=piles_00005_00005)
-DISCRETE aux25 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00002_00001/13)
-{0..3}
-BOOL aux26 #Active-CSE: 9 occurrences of this expression or equivalent: (piles_00002_00007=piles_00003_00006)
-DISCRETE aux27 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00005_00001/13)
-{0..3}
-DISCRETE aux28 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00005_00003/13)
-{0..3}
-DISCRETE aux29 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00005_00005/13)
-{0..3}
-DISCRETE aux30 #Active-CSE: 4 occurrences of this expression or equivalent: (piles_00003_00004/13)
-{0..2}
-BOOL aux31 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00002=piles_00005_00003)
-BOOL aux32 #Active-CSE: 9 occurrences of this expression or equivalent: (piles_00002_00001=piles_00003_00001)
-DISCRETE aux33 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00005_00005%13)
-{1..8}
-DISCRETE aux34 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00005_00003%13)
-{1..8}
-DISCRETE aux35 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00005_00001%13)
-{1..8}
-DISCRETE aux36 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00004_00001/13)
-{0..3}
-DISCRETE aux37 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00004_00006/13)
-{0..3}
-BOOL aux38 #Active-CSE: 7 occurrences of this expression or equivalent: (piles_00004_00006=piles_00005_00005)
-BOOL aux39 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00002_00003=piles_00003_00002)
-BOOL aux40 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00002_00006=piles_00003_00006)
-BOOL aux41 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00003=piles_00007_00002)
-BOOL aux42 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00002=piles_00007_00002)
-BOOL aux43 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00001=piles_00007_00001)
-BOOL aux44 #Active-CSE: 8 occurrences of this expression or equivalent: (piles_00003_00001=piles_00004_00001)
-BOOL aux45 #Active-CSE: 6 occurrences of this expression or equivalent: (piles_00003_00003=piles_00004_00003)
-BOOL aux46 #Active-CSE: 4 occurrences of this expression or equivalent: (piles_00006_00001=piles_00005_00001)
-DISCRETE aux48 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00003/13)
-{0..2}
-BOOL aux49 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00004/13)
-DISCRETE aux50 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00005/13)
+DISCRETE aux30 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00004_00005%13)
 {1..2}
-DISCRETE aux51 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00006/13)
+DISCRETE aux31 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00004_00004%13)
+{1..8}
+DISCRETE aux32 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00004_00002%13)
+{1..5}
+DISCRETE aux33 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00005_00001%13)
+{1..8}
+DISCRETE aux34 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00005_00003%13)
+{1..8}
+DISCRETE aux35 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00005_00005%13)
+{1..8}
+BOOL aux36 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00003_00003=seqs_00004_00002)
+BOOL aux37 #Active-CSE: 8 occurrences of this expression or equivalent: (seqs_00003_00001=seqs_00004_00001)
+DISCRETE aux38 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00003_00006/13)
 {2..3}
-DISCRETE aux53 #Active-CSE: 4 occurrences of this expression or equivalent: (piles_00003_00004%13)
+DISCRETE aux39 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00003_00001/13)
+{0..3}
+DISCRETE aux40 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00004_00006%13)
+{2..8}
+DISCRETE aux41 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00004_00001%13)
 {1..5}
-DISCRETE aux54 #Active-CSE: 4 occurrences of this expression or equivalent: (piles_00002_00004%13)
+BOOL aux42 #Active-CSE: 4 occurrences of this expression or equivalent: (seqs_00005_00001=seqs_00006_00001)
+BOOL aux43 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00005_00003=seqs_00006_00003)
+BOOL aux44 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00005_00002=seqs_00006_00002)
+BOOL aux45 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00005_00004=seqs_00006_00003)
+BOOL aux46 #Active-CSE: 5 occurrences of this expression or equivalent: (seqs_00003_00005=seqs_00004_00004)
+BOOL aux47 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00004_00004=seqs_00005_00004)
+BOOL aux48 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00004_00004=seqs_00005_00003)
+DISCRETE aux49 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00005_00004%13)
+{1..8}
+DISCRETE aux50 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00005_00002%13)
+{1..5}
+BOOL aux52 #Active-CSE: 6 occurrences of this expression or equivalent: (seqs_00004_00001=seqs_00005_00001)
+BOOL aux54 #Active-CSE: 5 occurrences of this expression or equivalent: (seqs_00003_00004=seqs_00002_00005)
+BOOL aux55 #Active-CSE: 5 occurrences of this expression or equivalent: (seqs_00003_00004=seqs_00002_00004)
+DISCRETE aux56 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00002_00002%13)
+{3..5}
+DISCRETE aux57 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00002_00003%13)
+{1..5}
+DISCRETE aux58 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00002_00005%13)
+{1..2}
+DISCRETE aux59 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00002_00006%13)
+{1..2}
+BOOL aux61 #Active-CSE: 7 occurrences of this expression or equivalent: (seqs_00003_00002=seqs_00004_00002)
+DISCRETE aux62 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00002/13)
+{0..3}
+DISCRETE aux63 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00003/13)
+{0..3}
+DISCRETE aux64 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00001/13)
+{0..3}
+DISCRETE aux65 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00004/13)
+{0..3}
+DISCRETE aux66 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00003_00005/13)
+{1..3}
+DISCRETE aux67 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00003_00002/13)
+{0..2}
+DISCRETE aux68 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00003_00003/13)
+{0..2}
+DISCRETE aux69 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00003_00003%13)
+{1..5}
+DISCRETE aux70 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00003_00005%13)
+{1..2}
+DISCRETE aux71 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00003_00002%13)
+{1..5}
+DISCRETE aux73 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00004%13)
+{1..8}
+DISCRETE aux74 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00001%13)
+{1..8}
+DISCRETE aux75 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00002%13)
+{1..8}
+DISCRETE aux76 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00006_00003%13)
+{1..8}
+BOOL aux77 #Active-CSE: 7 occurrences of this expression or equivalent: (seqs_00003_00006=seqs_00004_00005)
+BOOL aux78 #Active-CSE: 9 occurrences of this expression or equivalent: (seqs_00003_00006=seqs_00002_00007)
+BOOL aux79 #Active-CSE: 5 occurrences of this expression or equivalent: (seqs_00004_00002=seqs_00005_00002)
+BOOL aux80 #Active-CSE: 9 occurrences of this expression or equivalent: (seqs_00003_00001=seqs_00002_00001)
+BOOL aux81 #Active-CSE: 5 occurrences of this expression or equivalent: (seqs_00004_00005=seqs_00005_00004)
+BOOL aux82 #Active-CSE: 7 occurrences of this expression or equivalent: (seqs_00003_00003=seqs_00002_00003)
+BOOL aux83 #Active-CSE: 4 occurrences of this expression or equivalent: (seqs_00003_00005=seqs_00002_00005)
+DISCRETE aux84 #Active-CSE: 4 occurrences of this expression or equivalent: (seqs_00002_00004%13)
 {2..5}
 **CONSTRAINTS**
-w-inintervalset(aux54, [2,2,5,5])
+w-inintervalset(aux84, [2,2,5,5])
 **VARIABLES**
-BOOL aux55 #Active-CSE: 4 occurrences of this expression or equivalent: (piles_00003_00004=piles_00004_00004)
-BOOL aux56 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00004_00004=piles_00005_00004)
-BOOL aux57 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00004_00004=piles_00005_00003)
-BOOL aux59 #Active-CSE: 8 occurrences of this expression or equivalent: (piles_00002_00002=piles_00003_00002)
-DISCRETE aux60 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00005_00002/13)
+BOOL aux85 #Active-CSE: 4 occurrences of this expression or equivalent: (seqs_00004_00003=seqs_00005_00003)
+BOOL aux86 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00003_00005=seqs_00004_00005)
+BOOL aux87 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00003_00004=seqs_00004_00003)
+DISCRETE aux88 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00004_00001/13)
 {0..3}
-DISCRETE aux61 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00005_00004/13)
+DISCRETE aux89 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00004_00006/13)
 {0..3}
-BOOL aux62 #Active-CSE: 7 occurrences of this expression or equivalent: (piles_00003_00002=piles_00004_00002)
-DISCRETE aux64 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00005%13)
-{1..2}
-DISCRETE aux65 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00003%13)
-{1..5}
-DISCRETE aux66 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00002%13)
-{1..5}
-BOOL aux67 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00006_00002=piles_00005_00002)
-BOOL aux68 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00006_00003=piles_00005_00003)
-BOOL aux69 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00006_00003=piles_00005_00004)
-BOOL aux70 #Active-CSE: 5 occurrences of this expression or equivalent: (piles_00004_00005=piles_00005_00004)
-DISCRETE aux71 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00003%13)
-{1..8}
-DISCRETE aux72 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00004%13)
-{1..8}
-DISCRETE aux73 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00001%13)
-{1..8}
-DISCRETE aux74 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00002%13)
-{1..8}
-BOOL aux75 #Active-CSE: 5 occurrences of this expression or equivalent: (piles_00004_00002=piles_00005_00002)
-DISCRETE aux76 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00004/13)
+BOOL aux90 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00003_00003=seqs_00002_00004)
+BOOL aux91 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00003_00006=seqs_00002_00006)
+BOOL aux92 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00003_00002=seqs_00002_00003)
+BOOL aux93 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00006_00004=seqs_00007_00003)
+DISCRETE aux94 #Active-CSE: 2 occurrences of this expression or equivalent: (seqs_00002_00001/13)
 {0..3}
-DISCRETE aux77 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00001/13)
-{0..3}
-DISCRETE aux78 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00002/13)
-{0..3}
-DISCRETE aux79 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00006_00003/13)
-{0..3}
-BOOL aux80 #Active-CSE: 6 occurrences of this expression or equivalent: (piles_00004_00001=piles_00005_00001)
-BOOL aux81 #Active-CSE: 4 occurrences of this expression or equivalent: (piles_00002_00005=piles_00003_00005)
-DISCRETE aux82 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00003/13)
+BOOL aux95 #Active-CSE: 7 occurrences of this expression or equivalent: (seqs_00003_00005=seqs_00002_00006)
+BOOL aux96 #Active-CSE: 8 occurrences of this expression or equivalent: (seqs_00003_00002=seqs_00002_00002)
+DISCRETE aux97 #Active-CSE: 4 occurrences of this expression or equivalent: (seqs_00003_00004/13)
 {0..2}
-DISCRETE aux83 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00002/13)
+DISCRETE aux98 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00005_00004/13)
+{0..3}
+DISCRETE aux99 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00005_00002/13)
+{0..3}
+BOOL aux100 #Active-CSE: 6 occurrences of this expression or equivalent: (seqs_00003_00003=seqs_00004_00003)
+BOOL aux102 #Active-CSE: 7 occurrences of this expression or equivalent: (seqs_00004_00006=seqs_00005_00005)
+DISCRETE aux104 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00002_00003/13)
 {0..2}
-DISCRETE aux84 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00005/13)
-{1..3}
-BOOL aux85 #Active-CSE: 4 occurrences of this expression or equivalent: (piles_00004_00003=piles_00005_00003)
-BOOL aux86 #Active-CSE: 5 occurrences of this expression or equivalent: (piles_00002_00004=piles_00003_00004)
-BOOL aux87 #Active-CSE: 5 occurrences of this expression or equivalent: (piles_00002_00005=piles_00003_00004)
-BOOL aux88 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00004_00003=piles_00005_00002)
-BOOL aux89 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00004=piles_00004_00003)
-BOOL aux90 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00003_00005=piles_00004_00005)
-BOOL aux91 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00004=piles_00003_00003)
-BOOL aux92 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00003_00003=piles_00004_00002)
-BOOL aux93 #Active-CSE: 7 occurrences of this expression or equivalent: (piles_00003_00006=piles_00004_00005)
-DISCRETE aux94 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00004_00006%13)
-{2..8}
-DISCRETE aux95 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00004_00001%13)
-{1..5}
-BOOL aux96 #Active-CSE: 7 occurrences of this expression or equivalent: (piles_00002_00006=piles_00003_00005)
-DISCRETE aux97 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00005%13)
+BOOL aux105 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00002_00004/13)
+DISCRETE aux106 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00002_00005/13)
 {1..2}
-DISCRETE aux98 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00006%13)
-{1..2}
-DISCRETE aux100 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00002%13)
-{3..5}
-DISCRETE aux101 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00002_00003%13)
-{1..5}
-BOOL aux102 #Active-CSE: 5 occurrences of this expression or equivalent: (piles_00003_00005=piles_00004_00004)
-DISCRETE aux103 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00003_00006/13)
+DISCRETE aux107 #Active-CSE: 3 occurrences of this expression or equivalent: (seqs_00002_00006/13)
 {2..3}
-DISCRETE aux104 #Active-CSE: 2 occurrences of this expression or equivalent: (piles_00003_00001/13)
-{0..3}
-DISCRETE aux105 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00005_00004%13)
-{1..8}
-DISCRETE aux106 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00005_00002%13)
-{1..5}
-BOOL aux107 #Active-CSE: 3 occurrences of this expression or equivalent: (piles_00006_00004=piles_00007_00003)
 DISCRETE aux108 #
 {0..3}
 DISCRETE aux109 #
@@ -308,112 +308,112 @@ DISCRETE aux109 #
 **VARIABLES**
 ALIAS cards[9]=[44, 29, 31, 5, 15, 27, 41, 28, 8]
 **SEARCH**
-PRINT[[piles_00002_00001],[piles_00002_00002],[piles_00002_00003],[piles_00002_00004],[piles_00002_00005],[piles_00002_00006],[piles_00002_00007],[piles_00003_00001],[piles_00003_00002],[piles_00003_00003],[piles_00003_00004],[piles_00003_00005],[piles_00003_00006],[piles_00004_00001],[piles_00004_00002],[piles_00004_00003],[piles_00004_00004],[piles_00004_00005],[piles_00004_00006],[piles_00005_00001],[piles_00005_00002],[piles_00005_00003],[piles_00005_00004],[piles_00005_00005],[piles_00006_00001],[piles_00006_00002],[piles_00006_00003],[piles_00006_00004],[piles_00007_00001],[piles_00007_00002],[piles_00007_00003],[piles_00008_00001]]
-VARORDER STATIC [piles_00002_00001, piles_00002_00002, piles_00002_00003, piles_00002_00004, piles_00002_00005, piles_00002_00006, piles_00002_00007, piles_00003_00001, piles_00003_00002, piles_00003_00003, piles_00003_00004, piles_00003_00005, piles_00003_00006, piles_00004_00001, piles_00004_00002, piles_00004_00003, piles_00004_00004, piles_00004_00005, piles_00004_00006, piles_00005_00001, piles_00005_00002, piles_00005_00003, piles_00005_00004, piles_00005_00005, piles_00006_00001, piles_00006_00002, piles_00006_00003, piles_00006_00004, piles_00007_00001, piles_00007_00002, piles_00007_00003, piles_00008_00001]
+PRINT[[seqs_00002_00001],[seqs_00002_00002],[seqs_00002_00003],[seqs_00002_00004],[seqs_00002_00005],[seqs_00002_00006],[seqs_00002_00007],[seqs_00003_00001],[seqs_00003_00002],[seqs_00003_00003],[seqs_00003_00004],[seqs_00003_00005],[seqs_00003_00006],[seqs_00004_00001],[seqs_00004_00002],[seqs_00004_00003],[seqs_00004_00004],[seqs_00004_00005],[seqs_00004_00006],[seqs_00005_00001],[seqs_00005_00002],[seqs_00005_00003],[seqs_00005_00004],[seqs_00005_00005],[seqs_00006_00001],[seqs_00006_00002],[seqs_00006_00003],[seqs_00006_00004],[seqs_00007_00001],[seqs_00007_00002],[seqs_00008_00001],[seqs_00009_00001]]
+VARORDER STATIC [seqs_00002_00001, seqs_00002_00002, seqs_00002_00003, seqs_00002_00004, seqs_00002_00005, seqs_00002_00006, seqs_00002_00007, seqs_00003_00001, seqs_00003_00002, seqs_00003_00003, seqs_00003_00004, seqs_00003_00005, seqs_00003_00006, seqs_00004_00001, seqs_00004_00002, seqs_00004_00003, seqs_00004_00004, seqs_00004_00005, seqs_00004_00006, seqs_00005_00001, seqs_00005_00002, seqs_00005_00003, seqs_00005_00004, seqs_00005_00005, seqs_00006_00001, seqs_00006_00002, seqs_00006_00003, seqs_00006_00004, seqs_00007_00001, seqs_00007_00002, seqs_00009_00001, seqs_00008_00001]
 **CONSTRAINTS**
-div(piles_00007_00003, 13, aux108)
-modulo(piles_00007_00003,13,aux109)
-div(piles_00007_00002, 13, aux12)
-reify(gaceq(piles_00002_00003,piles_00003_00003), aux13)
-modulo(piles_00007_00002,13,aux14)
-div(piles_00004_00003, 13, aux15)
-div(piles_00004_00002, 13, aux16)
-div(piles_00004_00005, 13, aux17)
-div(piles_00004_00004, 13, aux18)
-modulo(piles_00002_00001,13,5)
-modulo(piles_00004_00005,13,aux20)
-modulo(piles_00004_00004,13,aux21)
-modulo(piles_00004_00003,13,aux22)
-modulo(piles_00004_00002,13,aux23)
-reify(gaceq(piles_00006_00004,piles_00005_00005), aux24)
-div(piles_00002_00001, 13, aux25)
-reify(gaceq(piles_00002_00007,piles_00003_00006), aux26)
-div(piles_00005_00001, 13, aux27)
-div(piles_00005_00003, 13, aux28)
-div(piles_00005_00005, 13, aux29)
-div(piles_00003_00004, 13, aux30)
-reify(gaceq(piles_00006_00002,piles_00005_00003), aux31)
-reify(gaceq(piles_00002_00001,piles_00003_00001), aux32)
-modulo(piles_00005_00005,13,aux33)
-modulo(piles_00005_00003,13,aux34)
-modulo(piles_00005_00001,13,aux35)
-div(piles_00004_00001, 13, aux36)
-div(piles_00004_00006, 13, aux37)
-reify(gaceq(piles_00004_00006,piles_00005_00005), aux38)
-reify(gaceq(piles_00002_00003,piles_00003_00002), aux39)
-reify(gaceq(piles_00002_00006,piles_00003_00006), aux40)
-reify(gaceq(piles_00006_00003,piles_00007_00002), aux41)
-reify(gaceq(piles_00006_00002,piles_00007_00002), aux42)
-reify(gaceq(piles_00006_00001,piles_00007_00001), aux43)
-reify(gaceq(piles_00003_00001,piles_00004_00001), aux44)
-reify(gaceq(piles_00003_00003,piles_00004_00003), aux45)
-reify(gaceq(piles_00006_00001,piles_00005_00001), aux46)
-div(piles_00002_00002, 13, 2)
-div(piles_00002_00003, 13, aux48)
-div(piles_00002_00004, 13, aux49)
-div(piles_00002_00005, 13, aux50)
-div(piles_00002_00006, 13, aux51)
-modulo(piles_00003_00004,13,aux53)
-modulo(piles_00002_00004,13,aux54)
-reify(gaceq(piles_00003_00004,piles_00004_00004), aux55)
-reify(gaceq(piles_00004_00004,piles_00005_00004), aux56)
-reify(gaceq(piles_00004_00004,piles_00005_00003), aux57)
-modulo(piles_00003_00001,13,5)
-reify(gaceq(piles_00002_00002,piles_00003_00002), aux59)
-div(piles_00005_00002, 13, aux60)
-div(piles_00005_00004, 13, aux61)
-reify(gaceq(piles_00003_00002,piles_00004_00002), aux62)
-modulo(piles_00003_00006,13,2)
-modulo(piles_00003_00005,13,aux64)
-modulo(piles_00003_00003,13,aux65)
-modulo(piles_00003_00002,13,aux66)
-reify(gaceq(piles_00006_00002,piles_00005_00002), aux67)
-reify(gaceq(piles_00006_00003,piles_00005_00003), aux68)
-reify(gaceq(piles_00006_00003,piles_00005_00004), aux69)
-reify(gaceq(piles_00004_00005,piles_00005_00004), aux70)
-modulo(piles_00006_00003,13,aux71)
-modulo(piles_00006_00004,13,aux72)
-modulo(piles_00006_00001,13,aux73)
-modulo(piles_00006_00002,13,aux74)
-reify(gaceq(piles_00004_00002,piles_00005_00002), aux75)
-div(piles_00006_00004, 13, aux76)
-div(piles_00006_00001, 13, aux77)
-div(piles_00006_00002, 13, aux78)
-div(piles_00006_00003, 13, aux79)
-reify(gaceq(piles_00004_00001,piles_00005_00001), aux80)
-reify(gaceq(piles_00002_00005,piles_00003_00005), aux81)
-div(piles_00003_00003, 13, aux82)
-div(piles_00003_00002, 13, aux83)
-div(piles_00003_00005, 13, aux84)
-reify(gaceq(piles_00004_00003,piles_00005_00003), aux85)
-reify(gaceq(piles_00002_00004,piles_00003_00004), aux86)
-reify(gaceq(piles_00002_00005,piles_00003_00004), aux87)
-reify(gaceq(piles_00004_00003,piles_00005_00002), aux88)
-reify(gaceq(piles_00003_00004,piles_00004_00003), aux89)
-reify(gaceq(piles_00003_00005,piles_00004_00005), aux90)
-reify(gaceq(piles_00002_00004,piles_00003_00003), aux91)
-reify(gaceq(piles_00003_00003,piles_00004_00002), aux92)
-reify(gaceq(piles_00003_00006,piles_00004_00005), aux93)
-modulo(piles_00004_00006,13,aux94)
-modulo(piles_00004_00001,13,aux95)
-reify(gaceq(piles_00002_00006,piles_00003_00005), aux96)
-modulo(piles_00002_00005,13,aux97)
-modulo(piles_00002_00006,13,aux98)
-modulo(piles_00002_00007,13,2)
-modulo(piles_00002_00002,13,aux100)
-modulo(piles_00002_00003,13,aux101)
-reify(gaceq(piles_00003_00005,piles_00004_00004), aux102)
-div(piles_00003_00006, 13, aux103)
-div(piles_00003_00001, 13, aux104)
-modulo(piles_00005_00004,13,aux105)
-modulo(piles_00005_00002,13,aux106)
-reify(gaceq(piles_00006_00004,piles_00007_00003), aux107)
-watched-or({watched-and({w-literal(piles_00002_00001,5),w-literal(piles_00002_00002,29),w-literal(piles_00002_00003,31),w-literal(piles_00002_00004,15),w-literal(piles_00002_00005,27),w-literal(piles_00002_00006,41),w-literal(piles_00002_00007,28)}),watched-and({w-literal(piles_00002_00001,44),w-literal(piles_00002_00002,29),w-literal(piles_00002_00003,5),w-literal(piles_00002_00004,15),w-literal(piles_00002_00005,27),w-literal(piles_00002_00006,41),w-literal(piles_00002_00007,28)}),watched-and({w-literal(piles_00002_00001,44),w-literal(piles_00002_00002,29),w-literal(piles_00002_00003,27),w-literal(piles_00002_00004,5),w-literal(piles_00002_00005,15),w-literal(piles_00002_00006,41),w-literal(piles_00002_00007,28)}),watched-and({w-literal(piles_00002_00001,44),w-literal(piles_00002_00002,29),w-literal(piles_00002_00003,31),w-literal(piles_00002_00004,5),w-literal(piles_00002_00005,15),w-literal(piles_00002_00006,27),w-literal(piles_00002_00007,28)}),watched-and({w-literal(piles_00002_00001,44),w-literal(piles_00002_00002,29),w-literal(piles_00002_00003,31),w-literal(piles_00002_00004,5),w-literal(piles_00002_00005,28),w-literal(piles_00002_00006,27),w-literal(piles_00002_00007,41)}),watched-and({w-literal(piles_00002_00001,44),w-literal(piles_00002_00002,31),w-literal(piles_00002_00003,5),w-literal(piles_00002_00004,15),w-literal(piles_00002_00005,27),w-literal(piles_00002_00006,41),w-literal(piles_00002_00007,28)})})
-watched-or({watched-and({w-literal(aux50,2),w-literal(aux32,1),w-literal(aux13,1),w-literal(aux86,1),gaceq(piles_00002_00005,piles_00003_00002),w-literal(aux96,1),w-literal(aux26,1)}),watched-and({watched-or({gaceq(aux100,aux101),w-literal(aux48,2)}),w-literal(aux32,1),w-literal(aux39,1),w-literal(aux91,1),w-literal(aux87,1),w-literal(aux96,1),w-literal(aux26,1)}),watched-and({watched-or({gaceq(aux54,aux97),gaceq(aux49,aux50)}),w-literal(aux32,1),w-literal(aux59,1),w-literal(aux13,1),w-literal(aux87,1),w-literal(aux96,1),w-literal(aux26,1)}),watched-and({watched-or({w-literal(aux98,2),div(piles_00002_00007, 13, aux51)}),w-literal(aux32,1),w-literal(aux59,1),w-literal(aux13,1),w-literal(aux86,1),w-literal(aux81,1),w-literal(aux26,1)}),watched-and({w-literal(aux54,2),w-literal(aux32,1),w-literal(aux59,1),w-literal(aux13,1),w-literal(aux81,1),w-literal(aux40,1),gaceq(piles_00002_00007,piles_00003_00004)}),watched-and({watched-or({gaceq(aux101,aux98),gaceq(aux48,aux51)}),w-literal(aux32,1),w-literal(aux59,1),w-literal(aux86,1),w-literal(aux81,1),gaceq(piles_00002_00006,piles_00003_00003),w-literal(aux26,1)}),watched-and({watched-or({gaceq(aux101,aux54),gaceq(aux48,aux49)}),w-literal(aux32,1),w-literal(aux59,1),w-literal(aux91,1),w-literal(aux87,1),w-literal(aux96,1),w-literal(aux26,1)}),watched-and({watched-or({gaceq(aux97,aux98),gaceq(aux50,aux51)}),w-literal(aux32,1),w-literal(aux59,1),w-literal(aux13,1),w-literal(aux86,1),w-literal(aux96,1),w-literal(aux26,1)}),watched-and({watched-or({w-literal(aux54,5),gaceq(aux25,aux49)}),w-literal(aux59,1),w-literal(aux13,1),gaceq(piles_00002_00004,piles_00003_00001),w-literal(aux87,1),w-literal(aux96,1),w-literal(aux26,1)}),watched-and({watched-or({w-literal(aux100,5),w-literal(aux25,2)}),gaceq(piles_00002_00002,piles_00003_00001),w-literal(aux39,1),w-literal(aux91,1),w-literal(aux87,1),w-literal(aux96,1),w-literal(aux26,1)})})
-watched-or({watched-and({w-literal(piles_00004_00006,8),watched-or({w-literal(aux64,2),gaceq(aux84,aux103)}),w-literal(aux44,1),w-literal(aux62,1),w-literal(aux45,1),w-literal(aux55,1),w-literal(aux93,1)}),watched-and({w-literal(piles_00004_00006,8),watched-or({w-literal(aux65,2),gaceq(aux82,aux103)}),w-literal(aux44,1),w-literal(aux62,1),w-literal(aux55,1),w-literal(aux90,1),gaceq(piles_00003_00006,piles_00004_00003)}),watched-and({w-literal(piles_00004_00006,8),watched-or({gaceq(aux66,aux65),gaceq(aux83,aux82)}),w-literal(aux44,1),w-literal(aux92,1),w-literal(aux89,1),w-literal(aux102,1),w-literal(aux93,1)}),watched-and({w-literal(piles_00004_00006,8),watched-or({gaceq(aux53,aux64),gaceq(aux30,aux84)}),w-literal(aux44,1),w-literal(aux62,1),w-literal(aux45,1),w-literal(aux102,1),w-literal(aux93,1)}),watched-and({w-literal(piles_00004_00006,8),watched-or({gaceq(aux66,aux64),gaceq(aux83,aux84)}),w-literal(aux44,1),w-literal(aux45,1),w-literal(aux55,1),gaceq(piles_00003_00005,piles_00004_00002),w-literal(aux93,1)}),watched-and({w-literal(piles_00004_00006,8),watched-or({w-literal(aux66,5),gaceq(aux104,aux83)}),gaceq(piles_00003_00002,piles_00004_00001),w-literal(aux92,1),w-literal(aux89,1),w-literal(aux102,1),w-literal(aux93,1)}),watched-and({w-literal(piles_00004_00006,8),watched-or({gaceq(aux65,aux53),gaceq(aux82,aux30)}),w-literal(aux44,1),w-literal(aux62,1),w-literal(aux89,1),w-literal(aux102,1),w-literal(aux93,1)}),watched-and({w-literal(piles_00004_00006,8),watched-or({w-literal(aux53,5),gaceq(aux104,aux30)}),w-literal(aux62,1),w-literal(aux45,1),gaceq(piles_00003_00004,piles_00004_00001),w-literal(aux102,1),w-literal(aux93,1)}),watched-and({w-literal(piles_00004_00004,8),w-literal(aux30,0),w-literal(aux44,1),w-literal(aux62,1),w-literal(aux45,1),w-literal(aux90,1),gaceq(piles_00003_00006,piles_00004_00006)})})
-watched-or({watched-and({w-literal(aux80,1),w-literal(aux75,1),w-literal(aux85,1),w-literal(aux70,1),w-literal(aux38,1),watched-or({gaceq(aux21,aux20),gaceq(aux18,aux17)})}),watched-and({w-literal(aux80,1),w-literal(aux75,1),w-literal(aux85,1),w-literal(aux56,1),w-literal(aux38,1),watched-or({gaceq(aux20,aux94),gaceq(aux17,aux37)})}),watched-and({w-literal(aux80,1),w-literal(aux75,1),w-literal(aux57,1),w-literal(aux70,1),w-literal(aux38,1),watched-or({gaceq(aux22,aux21),gaceq(aux15,aux18)})}),watched-and({w-literal(aux80,1),w-literal(aux75,1),w-literal(aux56,1),gaceq(piles_00004_00005,piles_00005_00005),gaceq(piles_00004_00006,piles_00005_00003),watched-or({gaceq(aux22,aux94),gaceq(aux15,aux37)})}),watched-and({w-literal(aux80,1),w-literal(aux88,1),w-literal(aux57,1),w-literal(aux70,1),w-literal(aux38,1),watched-or({gaceq(aux23,aux22),gaceq(aux16,aux15)})}),watched-and({w-literal(aux80,1),w-literal(aux85,1),w-literal(aux56,1),gaceq(piles_00004_00005,piles_00005_00002),w-literal(aux38,1),watched-or({gaceq(aux23,aux20),gaceq(aux16,aux17)})}),watched-and({gaceq(piles_00004_00002,piles_00005_00001),w-literal(aux88,1),w-literal(aux57,1),w-literal(aux70,1),w-literal(aux38,1),watched-or({gaceq(aux95,aux23),gaceq(aux36,aux16)})}),watched-and({w-literal(aux75,1),w-literal(aux85,1),gaceq(piles_00004_00004,piles_00005_00001),w-literal(aux70,1),w-literal(aux38,1),watched-or({gaceq(aux95,aux21),gaceq(aux36,aux18)})})})
-watched-or({watched-and({watched-or({gaceq(aux34,aux105),gaceq(aux28,aux61)}),w-literal(aux46,1),w-literal(aux67,1),w-literal(aux69,1),w-literal(aux24,1)}),watched-and({watched-or({gaceq(aux106,aux34),gaceq(aux60,aux28)}),w-literal(aux46,1),w-literal(aux31,1),w-literal(aux69,1),w-literal(aux24,1)}),watched-and({watched-or({gaceq(aux35,aux106),gaceq(aux27,aux60)}),gaceq(piles_00006_00001,piles_00005_00002),w-literal(aux31,1),w-literal(aux69,1),w-literal(aux24,1)}),watched-and({watched-or({gaceq(aux106,aux33),gaceq(aux60,aux29)}),w-literal(aux46,1),gaceq(piles_00006_00002,piles_00005_00005),w-literal(aux68,1),gaceq(piles_00006_00004,piles_00005_00004)}),watched-and({watched-or({gaceq(aux35,aux105),gaceq(aux27,aux61)}),gaceq(piles_00006_00001,piles_00005_00004),w-literal(aux67,1),w-literal(aux68,1),w-literal(aux24,1)}),watched-and({watched-or({gaceq(aux105,aux33),gaceq(aux61,aux29)}),w-literal(aux46,1),w-literal(aux67,1),w-literal(aux68,1),w-literal(aux24,1)})})
-watched-or({watched-and({w-literal(aux43,1),w-literal(aux41,1),w-literal(aux107,1),watched-or({gaceq(aux74,aux71),gaceq(aux78,aux79)})}),watched-and({w-literal(aux43,1),w-literal(aux42,1),w-literal(aux107,1),watched-or({gaceq(aux71,aux72),gaceq(aux79,aux76)})}),watched-and({gaceq(piles_00006_00002,piles_00007_00001),w-literal(aux41,1),w-literal(aux107,1),watched-or({gaceq(aux73,aux74),gaceq(aux77,aux78)})}),watched-and({w-literal(aux42,1),gaceq(piles_00006_00003,piles_00007_00003),gaceq(piles_00006_00004,piles_00007_00001),watched-or({gaceq(aux73,aux72),gaceq(aux77,aux76)})})})
-watched-or({watched-and({watched-or({modulo(piles_00007_00001,13,aux14),div(piles_00007_00001, 13, aux12)}),gaceq(piles_00007_00002,piles_00008_00001)}),watched-and({watched-or({modulo(piles_00007_00003,13,aux14),div(piles_00007_00003, 13, aux12)}),gaceq(piles_00007_00001,piles_00008_00001)})})
-watched-or({div(piles_00008_00001, 13, aux108),modulo(piles_00008_00001,13,aux109)})
+div(seqs_00009_00001, 13, aux108)
+modulo(seqs_00008_00001,13,aux109)
+modulo(seqs_00007_00002,13,aux12)
+reify(gaceq(seqs_00005_00005,seqs_00006_00004), aux13)
+reify(gaceq(seqs_00005_00003,seqs_00006_00002), aux14)
+reify(gaceq(seqs_00004_00003,seqs_00005_00002), aux15)
+div(seqs_00007_00002, 13, aux16)
+reify(gaceq(seqs_00006_00003,seqs_00007_00002), aux17)
+reify(gaceq(seqs_00006_00001,seqs_00007_00001), aux18)
+reify(gaceq(seqs_00006_00002,seqs_00007_00002), aux19)
+modulo(seqs_00003_00004,13,aux20)
+reify(gaceq(seqs_00003_00004,seqs_00004_00004), aux21)
+div(seqs_00005_00001, 13, aux22)
+div(seqs_00005_00005, 13, aux23)
+div(seqs_00005_00003, 13, aux24)
+div(seqs_00004_00002, 13, aux25)
+div(seqs_00004_00005, 13, aux26)
+div(seqs_00004_00003, 13, aux27)
+div(seqs_00004_00004, 13, aux28)
+modulo(seqs_00004_00003,13,aux29)
+modulo(seqs_00004_00005,13,aux30)
+modulo(seqs_00004_00004,13,aux31)
+modulo(seqs_00004_00002,13,aux32)
+modulo(seqs_00005_00001,13,aux33)
+modulo(seqs_00005_00003,13,aux34)
+modulo(seqs_00005_00005,13,aux35)
+reify(gaceq(seqs_00003_00003,seqs_00004_00002), aux36)
+reify(gaceq(seqs_00003_00001,seqs_00004_00001), aux37)
+div(seqs_00003_00006, 13, aux38)
+div(seqs_00003_00001, 13, aux39)
+modulo(seqs_00004_00006,13,aux40)
+modulo(seqs_00004_00001,13,aux41)
+reify(gaceq(seqs_00005_00001,seqs_00006_00001), aux42)
+reify(gaceq(seqs_00005_00003,seqs_00006_00003), aux43)
+reify(gaceq(seqs_00005_00002,seqs_00006_00002), aux44)
+reify(gaceq(seqs_00005_00004,seqs_00006_00003), aux45)
+reify(gaceq(seqs_00003_00005,seqs_00004_00004), aux46)
+reify(gaceq(seqs_00004_00004,seqs_00005_00004), aux47)
+reify(gaceq(seqs_00004_00004,seqs_00005_00003), aux48)
+modulo(seqs_00005_00004,13,aux49)
+modulo(seqs_00005_00002,13,aux50)
+modulo(seqs_00002_00001,13,5)
+reify(gaceq(seqs_00004_00001,seqs_00005_00001), aux52)
+reify(gaceq(seqs_00003_00004,seqs_00002_00005), aux54)
+reify(gaceq(seqs_00003_00004,seqs_00002_00004), aux55)
+modulo(seqs_00002_00002,13,aux56)
+modulo(seqs_00002_00003,13,aux57)
+modulo(seqs_00002_00005,13,aux58)
+modulo(seqs_00002_00006,13,aux59)
+modulo(seqs_00002_00007,13,2)
+reify(gaceq(seqs_00003_00002,seqs_00004_00002), aux61)
+div(seqs_00006_00002, 13, aux62)
+div(seqs_00006_00003, 13, aux63)
+div(seqs_00006_00001, 13, aux64)
+div(seqs_00006_00004, 13, aux65)
+div(seqs_00003_00005, 13, aux66)
+div(seqs_00003_00002, 13, aux67)
+div(seqs_00003_00003, 13, aux68)
+modulo(seqs_00003_00003,13,aux69)
+modulo(seqs_00003_00005,13,aux70)
+modulo(seqs_00003_00002,13,aux71)
+modulo(seqs_00003_00006,13,2)
+modulo(seqs_00006_00004,13,aux73)
+modulo(seqs_00006_00001,13,aux74)
+modulo(seqs_00006_00002,13,aux75)
+modulo(seqs_00006_00003,13,aux76)
+reify(gaceq(seqs_00003_00006,seqs_00004_00005), aux77)
+reify(gaceq(seqs_00003_00006,seqs_00002_00007), aux78)
+reify(gaceq(seqs_00004_00002,seqs_00005_00002), aux79)
+reify(gaceq(seqs_00003_00001,seqs_00002_00001), aux80)
+reify(gaceq(seqs_00004_00005,seqs_00005_00004), aux81)
+reify(gaceq(seqs_00003_00003,seqs_00002_00003), aux82)
+reify(gaceq(seqs_00003_00005,seqs_00002_00005), aux83)
+modulo(seqs_00002_00004,13,aux84)
+reify(gaceq(seqs_00004_00003,seqs_00005_00003), aux85)
+reify(gaceq(seqs_00003_00005,seqs_00004_00005), aux86)
+reify(gaceq(seqs_00003_00004,seqs_00004_00003), aux87)
+div(seqs_00004_00001, 13, aux88)
+div(seqs_00004_00006, 13, aux89)
+reify(gaceq(seqs_00003_00003,seqs_00002_00004), aux90)
+reify(gaceq(seqs_00003_00006,seqs_00002_00006), aux91)
+reify(gaceq(seqs_00003_00002,seqs_00002_00003), aux92)
+reify(gaceq(seqs_00006_00004,seqs_00009_00001), aux93)
+div(seqs_00002_00001, 13, aux94)
+reify(gaceq(seqs_00003_00005,seqs_00002_00006), aux95)
+reify(gaceq(seqs_00003_00002,seqs_00002_00002), aux96)
+div(seqs_00003_00004, 13, aux97)
+div(seqs_00005_00004, 13, aux98)
+div(seqs_00005_00002, 13, aux99)
+reify(gaceq(seqs_00003_00003,seqs_00004_00003), aux100)
+modulo(seqs_00003_00001,13,5)
+reify(gaceq(seqs_00004_00006,seqs_00005_00005), aux102)
+div(seqs_00002_00002, 13, 2)
+div(seqs_00002_00003, 13, aux104)
+div(seqs_00002_00004, 13, aux105)
+div(seqs_00002_00005, 13, aux106)
+div(seqs_00002_00006, 13, aux107)
+watched-or({watched-and({w-literal(seqs_00002_00001,5),w-literal(seqs_00002_00004,15),w-literal(seqs_00002_00005,27),w-literal(seqs_00002_00007,28),w-literal(seqs_00002_00002,29),w-literal(seqs_00002_00003,31),w-literal(seqs_00002_00006,41)}),watched-and({w-literal(seqs_00002_00004,5),w-literal(seqs_00002_00006,27),w-literal(seqs_00002_00005,28),w-literal(seqs_00002_00002,29),w-literal(seqs_00002_00003,31),w-literal(seqs_00002_00007,41),w-literal(seqs_00002_00001,44)}),watched-and({w-literal(seqs_00002_00003,5),w-literal(seqs_00002_00004,15),w-literal(seqs_00002_00005,27),w-literal(seqs_00002_00007,28),w-literal(seqs_00002_00002,29),w-literal(seqs_00002_00006,41),w-literal(seqs_00002_00001,44)}),watched-and({w-literal(seqs_00002_00003,5),w-literal(seqs_00002_00004,15),w-literal(seqs_00002_00005,27),w-literal(seqs_00002_00007,28),w-literal(seqs_00002_00002,31),w-literal(seqs_00002_00006,41),w-literal(seqs_00002_00001,44)}),watched-and({w-literal(seqs_00002_00004,5),w-literal(seqs_00002_00005,15),w-literal(seqs_00002_00003,27),w-literal(seqs_00002_00007,28),w-literal(seqs_00002_00002,29),w-literal(seqs_00002_00006,41),w-literal(seqs_00002_00001,44)}),watched-and({w-literal(seqs_00002_00004,5),w-literal(seqs_00002_00005,15),w-literal(seqs_00002_00006,27),w-literal(seqs_00002_00007,28),w-literal(seqs_00002_00002,29),w-literal(seqs_00002_00003,31),w-literal(seqs_00002_00001,44)})})
+watched-or({watched-and({watched-or({gaceq(aux94,aux105),w-literal(aux84,5)}),gaceq(seqs_00003_00001,seqs_00002_00004),w-literal(aux96,1),w-literal(aux82,1),w-literal(aux54,1),w-literal(aux95,1),w-literal(aux78,1)}),watched-and({watched-or({gaceq(aux104,aux107),gaceq(aux57,aux59)}),w-literal(aux80,1),w-literal(aux96,1),gaceq(seqs_00003_00003,seqs_00002_00006),w-literal(aux55,1),w-literal(aux83,1),w-literal(aux78,1)}),watched-and({watched-or({w-literal(aux94,2),w-literal(aux56,5)}),gaceq(seqs_00003_00001,seqs_00002_00002),w-literal(aux92,1),w-literal(aux90,1),w-literal(aux54,1),w-literal(aux95,1),w-literal(aux78,1)}),watched-and({watched-or({gaceq(aux104,aux105),gaceq(aux57,aux84)}),w-literal(aux80,1),w-literal(aux96,1),w-literal(aux90,1),w-literal(aux54,1),w-literal(aux95,1),w-literal(aux78,1)}),watched-and({watched-or({gaceq(aux106,aux107),gaceq(aux58,aux59)}),w-literal(aux80,1),w-literal(aux96,1),w-literal(aux82,1),w-literal(aux55,1),w-literal(aux95,1),w-literal(aux78,1)}),watched-and({w-literal(aux106,2),w-literal(aux80,1),gaceq(seqs_00003_00002,seqs_00002_00005),w-literal(aux82,1),w-literal(aux55,1),w-literal(aux95,1),w-literal(aux78,1)}),watched-and({watched-or({w-literal(aux104,2),gaceq(aux56,aux57)}),w-literal(aux80,1),w-literal(aux92,1),w-literal(aux90,1),w-literal(aux54,1),w-literal(aux95,1),w-literal(aux78,1)}),watched-and({watched-or({gaceq(aux105,aux106),gaceq(aux84,aux58)}),w-literal(aux80,1),w-literal(aux96,1),w-literal(aux82,1),w-literal(aux54,1),w-literal(aux95,1),w-literal(aux78,1)}),watched-and({watched-or({div(seqs_00002_00007, 13, aux107),w-literal(aux59,2)}),w-literal(aux80,1),w-literal(aux96,1),w-literal(aux82,1),w-literal(aux55,1),w-literal(aux83,1),w-literal(aux78,1)}),watched-and({w-literal(aux84,2),w-literal(aux80,1),w-literal(aux96,1),w-literal(aux82,1),gaceq(seqs_00003_00004,seqs_00002_00007),w-literal(aux83,1),w-literal(aux91,1)})})
+watched-or({watched-and({gaceq(seqs_00003_00002,seqs_00004_00001),w-literal(aux36,1),w-literal(aux87,1),w-literal(aux46,1),w-literal(aux77,1),watched-or({gaceq(aux39,aux67),w-literal(aux71,5)}),w-literal(seqs_00004_00006,8)}),watched-and({w-literal(aux61,1),w-literal(aux100,1),gaceq(seqs_00003_00004,seqs_00004_00001),w-literal(aux46,1),w-literal(aux77,1),watched-or({gaceq(aux39,aux97),w-literal(aux20,5)}),w-literal(seqs_00004_00006,8)}),watched-and({w-literal(aux37,1),w-literal(aux61,1),w-literal(aux100,1),w-literal(aux46,1),w-literal(aux77,1),watched-or({gaceq(aux97,aux66),gaceq(aux20,aux70)}),w-literal(seqs_00004_00006,8)}),watched-and({w-literal(aux37,1),w-literal(aux61,1),w-literal(aux100,1),w-literal(aux21,1),w-literal(aux77,1),watched-or({gaceq(aux66,aux38),w-literal(aux70,2)}),w-literal(seqs_00004_00006,8)}),watched-and({w-literal(aux37,1),w-literal(aux61,1),w-literal(aux87,1),w-literal(aux46,1),w-literal(aux77,1),watched-or({gaceq(aux68,aux97),gaceq(aux69,aux20)}),w-literal(seqs_00004_00006,8)}),watched-and({w-literal(aux37,1),w-literal(aux61,1),w-literal(aux21,1),w-literal(aux86,1),gaceq(seqs_00003_00006,seqs_00004_00003),watched-or({gaceq(aux68,aux38),w-literal(aux69,2)}),w-literal(seqs_00004_00006,8)}),watched-and({w-literal(aux37,1),w-literal(aux61,1),w-literal(aux100,1),w-literal(aux86,1),gaceq(seqs_00003_00006,seqs_00004_00006),w-literal(seqs_00004_00004,8),w-literal(aux97,0)}),watched-and({w-literal(aux37,1),w-literal(aux36,1),w-literal(aux87,1),w-literal(aux46,1),w-literal(aux77,1),watched-or({gaceq(aux67,aux68),gaceq(aux71,aux69)}),w-literal(seqs_00004_00006,8)}),watched-and({w-literal(aux37,1),w-literal(aux100,1),w-literal(aux21,1),gaceq(seqs_00003_00005,seqs_00004_00002),w-literal(aux77,1),watched-or({gaceq(aux67,aux66),gaceq(aux71,aux70)}),w-literal(seqs_00004_00006,8)})})
+watched-or({watched-and({watched-or({gaceq(aux88,aux28),gaceq(aux41,aux31)}),w-literal(aux79,1),w-literal(aux85,1),gaceq(seqs_00004_00004,seqs_00005_00001),w-literal(aux81,1),w-literal(aux102,1)}),watched-and({watched-or({gaceq(aux26,aux89),gaceq(aux30,aux40)}),w-literal(aux52,1),w-literal(aux79,1),w-literal(aux85,1),w-literal(aux47,1),w-literal(aux102,1)}),watched-and({watched-or({gaceq(aux27,aux89),gaceq(aux29,aux40)}),w-literal(aux52,1),w-literal(aux79,1),w-literal(aux47,1),gaceq(seqs_00004_00005,seqs_00005_00005),gaceq(seqs_00004_00006,seqs_00005_00003)}),watched-and({watched-or({gaceq(aux25,aux27),gaceq(aux32,aux29)}),w-literal(aux52,1),w-literal(aux15,1),w-literal(aux48,1),w-literal(aux81,1),w-literal(aux102,1)}),watched-and({watched-or({gaceq(aux28,aux26),gaceq(aux31,aux30)}),w-literal(aux52,1),w-literal(aux79,1),w-literal(aux85,1),w-literal(aux81,1),w-literal(aux102,1)}),watched-and({watched-or({gaceq(aux25,aux26),gaceq(aux32,aux30)}),w-literal(aux52,1),w-literal(aux85,1),w-literal(aux47,1),gaceq(seqs_00004_00005,seqs_00005_00002),w-literal(aux102,1)}),watched-and({watched-or({gaceq(aux88,aux25),gaceq(aux41,aux32)}),gaceq(seqs_00004_00002,seqs_00005_00001),w-literal(aux15,1),w-literal(aux48,1),w-literal(aux81,1),w-literal(aux102,1)}),watched-and({watched-or({gaceq(aux27,aux28),gaceq(aux29,aux31)}),w-literal(aux52,1),w-literal(aux79,1),w-literal(aux48,1),w-literal(aux81,1),w-literal(aux102,1)})})
+watched-or({watched-and({w-literal(aux42,1),w-literal(aux44,1),w-literal(aux45,1),w-literal(aux13,1),watched-or({gaceq(aux24,aux98),gaceq(aux34,aux49)})}),watched-and({w-literal(aux42,1),w-literal(aux44,1),w-literal(aux43,1),w-literal(aux13,1),watched-or({gaceq(aux98,aux23),gaceq(aux49,aux35)})}),watched-and({w-literal(aux42,1),w-literal(aux14,1),w-literal(aux45,1),w-literal(aux13,1),watched-or({gaceq(aux99,aux24),gaceq(aux50,aux34)})}),watched-and({w-literal(aux42,1),w-literal(aux43,1),gaceq(seqs_00005_00004,seqs_00006_00004),gaceq(seqs_00005_00005,seqs_00006_00002),watched-or({gaceq(aux99,aux23),gaceq(aux50,aux35)})}),watched-and({gaceq(seqs_00005_00002,seqs_00006_00001),w-literal(aux14,1),w-literal(aux45,1),w-literal(aux13,1),watched-or({gaceq(aux22,aux99),gaceq(aux33,aux50)})}),watched-and({w-literal(aux44,1),w-literal(aux43,1),gaceq(seqs_00005_00004,seqs_00006_00001),w-literal(aux13,1),watched-or({gaceq(aux22,aux98),gaceq(aux33,aux49)})})})
+watched-or({watched-and({w-literal(aux18,1),w-literal(aux17,1),w-literal(aux93,1),watched-or({gaceq(aux62,aux63),gaceq(aux75,aux76)})}),watched-and({w-literal(aux18,1),w-literal(aux19,1),w-literal(aux93,1),watched-or({gaceq(aux63,aux65),gaceq(aux76,aux73)})}),watched-and({gaceq(seqs_00006_00002,seqs_00007_00001),w-literal(aux17,1),w-literal(aux93,1),watched-or({gaceq(aux64,aux62),gaceq(aux74,aux75)})}),watched-and({w-literal(aux19,1),gaceq(seqs_00006_00003,seqs_00009_00001),gaceq(seqs_00006_00004,seqs_00007_00001),watched-or({gaceq(aux64,aux65),gaceq(aux74,aux73)})})})
+watched-or({watched-and({gaceq(seqs_00008_00001,seqs_00007_00002),watched-or({div(seqs_00007_00001, 13, aux16),modulo(seqs_00007_00001,13,aux12)})}),watched-and({gaceq(seqs_00008_00001,seqs_00007_00001),watched-or({div(seqs_00009_00001, 13, aux16),modulo(seqs_00009_00001,13,aux12)})})})
+watched-or({div(seqs_00008_00001, 13, aux108),modulo(seqs_00009_00001,13,aux109)})
 **EOF**

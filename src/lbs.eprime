@@ -5,43 +5,44 @@ given cards : matrix indexed by [ int(1..n) ] of int(0..51) where alldifferent(c
 letting RANGE = int(1..n)
 letting SUIT = 13
 
-find piles : matrix indexed by [RANGE, RANGE] of int(-1..51)
+$Decision variables: Aim to find sequences of piles (rows in matrix) which bring us to a solution
+find seqs : matrix indexed by [RANGE, RANGE] of int(-1..51)
 
 such that
 
-$Cards in first pile must be unique cards from cards list
-forAll card : int(1..n) .
-  piles[1, card] = cards[card],
+$[1]. Cards in first sequence must be the cards from the given list
+forAll pile : int(1..n) .
+  seqs[1, pile] = cards[pile],
 
 
-$Number of empty piles must increase as moves are made
-forAll pile : int(2..n) .
-  forAll card : int((n - pile + 2)..n) .
-    piles[pile, card] = -1,
+$[2]. Number of empty piles of cards must increase as moves are made
+forAll seq : int(2..n) .
+  forAll pile : int((n - seq + 2)..n) .
+    seqs[seq, pile] = -1,
 
-$For all piles
-forAll pile : int(1..n-1) .
-$There exists a source card which is not the first card
- exists src : int(2..(n - pile + 1)) .
- $And there exists a destination card which is one or three spaces left of the source
+$[3]. (a) For all sequences except the final one
+forAll seq : int(1..n-1) .
+$(b) There exists a source pile which is not the first pile
+ exists src : int(2..(n - seq + 1)) .
+ $(c) And there exists a destination pile which is one or three spaces left of the source
   exists dest : int(src - 3,src - 1) .
-    $Where the destination card in the new pile, equals the source card of the old pile
-    ((piles[pile + 1, dest] = piles[pile, src])
-      $And the destination card of the old pile must either have...
+    $(d) Where the card on top of the destination pile in the new sequence, equals the card on top of the source pile of the previous sequence
+    ((seqs[seq + 1, dest] = seqs[seq, src])
+      $And the destination card of the old sequence must either have...
       /\
-      $...the same rank as the source card...
-      ((piles[pile, dest] % SUIT = piles[pile, src] % SUIT)
+      $(e)...the same rank as the source card...
+      ((seqs[seq, dest] % SUIT = seqs[seq, src] % SUIT)
       \/
-      $...or the same suit as the source card
-      (piles[pile, dest] / SUIT = piles[pile, src] / SUIT)))
+      $(f)...or the same suit as the source card
+      (seqs[seq, dest] / SUIT = seqs[seq, src] / SUIT)))
       /\
-      $And all for all other cards
-      (forAll card : int(1..(n - pile + 1)) .
-      $If the card's position is greater than the source card then its position changes by -1
-        (card != dest /\ (src < card) -> (piles[pile + 1, card - 1] = piles[pile, card]))
+      $(g) And for all other piles
+      (forAll pile : int(1..(n - seq + 1)) .
+      $(h) If the card's position is greater than the source card then its position changes by -1
+        (pile != dest /\ (src < pile) -> (seqs[seq + 1, pile - 1] = seqs[seq, pile]))
         /\
-        $And if the card's position is less than the source card then its position is unchanged
-        (card != dest /\ (src > card) -> (piles[pile + 1, card] = piles[pile, card])))
+        $(i) And if the card's position is less than the source card then its position is unchanged
+        (pile != dest /\ (src > pile) -> (seqs[seq + 1, pile] = seqs[seq, pile])))
 
 
 
